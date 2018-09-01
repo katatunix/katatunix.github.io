@@ -8,7 +8,7 @@ This page contains some external links that I find worth reading. There exists t
 1. Good ideas in how to solve or do something or in general teaching ideas to get a better programmer.
 1. Criticising ideas, so you think more deeply about a topic.
 
-This site will be permanently updated. Links are not sorted in any particular order.
+This list will be permanently updated. Links are not sorted in any particular order.
 
 ## Functional
 
