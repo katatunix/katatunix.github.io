@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am Nghia Bui, a humble programmer. I love every programming language, but work mostly in C/C++/Java/C#, and especially F# now.
+An experienced and enthusiastic software developer with strong passion for software development and training.
+
+![Avatar](/images/btc-avatar.jpg)
