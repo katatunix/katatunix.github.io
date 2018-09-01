@@ -2,7 +2,7 @@
 layout: post
 title: The universe is 4D?
 date: 2016-08-11 00:00:00 +0700
-description: "The universe and projective geometry"
+description: "The universe and projective geometry."
 ---
 
 ![Perspective](/images/2016/the-universe-is-4d/perspective.png)
