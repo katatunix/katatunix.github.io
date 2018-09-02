@@ -149,8 +149,6 @@ And finally take them together into the `main` method:
 void main() {
     Director dir = new Director();
     House asianHouse = dir.buildHouse(new AsianBuilder());
-    House europeanHouse = dir.buildHouse(
-        new EuropeanBuilder()
-    );
+    House europeanHouse = dir.buildHouse(new EuropeanBuilder());
 }
 {% endhighlight %}
