@@ -124,7 +124,7 @@ Now we have the definition of a monad:
 
 >The two types `A` and `M`, together with the `magicCompose` operator (or the `bind` function/operator) and the `unit` function, define a monad!
 
-There is an interesting analogy: if the set of the `A -> M` functions were numbers, then the `magicCompose` operator would be an numeric operator like `+` `-` `*` `/`, and the `unit` function would be the neural number (like `0` for `+` or `1` for `*`).
+There is an interesting analogy: if the set of the `A -> M` functions was a set of numbers, then the `magicCompose` operator would be an numeric operator like `+` `-` `*` `/`, and the `unit` function would be the neural number (like `0` for `+` or `1` for `*`).
 
 This analogy leads to three laws of a monad.
 
