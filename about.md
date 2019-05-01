@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-An experienced and enthusiastic software developer with strong passion for software development and training.
+![Avatar](/images/lambda.jpg)
 
-![Avatar](/images/btc-avatar.jpg)
+My name is Nghia Bui - a humble programmer interested in F# and functional programming.
+
+[StackOverflow profile](https://stackoverflow.com/users/2198705/nghia-bui)
