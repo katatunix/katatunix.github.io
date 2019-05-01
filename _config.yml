@@ -28,6 +28,8 @@ disqus:
 
 google_analytics: UA-125027905-1
 
+stackoverflow_username: 2198705/nghia-bui
+
 # Build settings
 markdown: kramdown
 theme: minima
