@@ -29,13 +29,13 @@ The rest of this article is my personal explanation and justification for ECS.
 
 We start with a situation:
 
->Decomposing a game world which contains multiple game entities into parts. Each part can be either a data structure, or a function, or an object.
+*Decomposing a game world which contains multiple game entities into parts. Each part can be either a data structure, or a function, or an object.*
 
 Immediately, because we are object thinkers, we would consider each game entity as an object containing both data and functions. However now we are facing some problems. In the following section, we will discuss these problems and propose solutions in order to reach the ECS architecture.
 
 ## Problem 1
 
->An entity might have many aspects, and aspects can be reused for various kinds of entities.
+*An entity might have many aspects, and aspects can be reused for various kinds of entities.*
 
 Examples of aspects include Position, Renderable, Movable... Each aspect may concern in certain data of the entity. As you can see there are cases in which the same data are concerned by multiple aspects, but this is the story of the problem 3.
 
@@ -65,7 +65,7 @@ Mario mario = new Mario(p, r, m);
 
 ## Problem 2
 
->The aspects of an entity might change at run-time.
+*The aspects of an entity might change at run-time.*
 
 Currently, for each entity kind, we have a concrete class for it (e.g. the `Mario` class above). So its aspects (e.g., `Position`, `Renderable`, `Movable`) are fixed at run-time. We cannot hide a `Mario` by removing the `Renderable` aspect from it when the game is running.
 
@@ -79,7 +79,7 @@ To be honest, the two problems above are not caused by OOP. Indeed, our proposed
 
 ## Problem 3
 
->Components tend to heavily access data of one another.
+*Components tend to heavily access data of one another.*
 
 Clearly, many components could not stand alone. For instance, in the code above, the `Renderable` and `Movable` components need to access and modify the data of the `Position` component in order to render and move the entity correctly.
 
@@ -87,18 +87,20 @@ The heavily accessing of data between objects is actually a very bad practice in
 
 ## Problem 4
 
->There are global behaviors.
+*There are global behaviors.*
 
 Very often, in game development, we have behaviors that cannot belong to any entity. Collision detection is a clear example. To detect collisions, someone global needs to access `Position` of all entities. And that someone then notifies collision info to collided entities so that those entities could respond.
 
 Both the last two problems have one root cause: we are respecting encapsulation too much.
 
->In programming languages, encapsulation is used to refer to one of two related but distinct notions, and sometimes to the combination thereof:
->
->1. A language mechanism for restricting access to some of the object's components.
->2. A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.
->
->--[Wikipedia](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
+{{< admonition quote >}}
+In programming languages, encapsulation is used to refer to one of two related but distinct notions, and sometimes to the combination thereof:
+
+1. A language mechanism for restricting access to some of the object's components.
+2. A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.
+
+--[Wikipedia](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
+{{< /admonition >}}
 
 In problem 3, because each component has it own behaviors bundled with its internal data, when these behaviors involve external data, they must talk with other components through *getters* and *setters*.
 
@@ -110,19 +112,19 @@ So, if we accept breaking encapsulation with a lot of getters and setters, why d
 
 * Separate functions from data. Components contain data only. A function has a global access over components. It might interest on certain component classes and manipulate instances of those classes. Functions now are called *systems* or *processors*.
 
-## Procedural Paradigm is bad?
+## Procedural is bad?
 
 We have achieved ECS architecture. But you may say:
 
->This is Procedural Paradigm (PP)! It's bad!
+*This is Procedural Paradigm (PP)! It's bad!*
 
 Yes, but which are bad things about PP?
 
->Well, PP tends to create more dependencies between parts because PP has two kinds of dependencies: functions depend on data, and functions depend on functions. Remember, OOP, with encapsulation, has only one kind -- the last one.
+*Well, PP tends to create more dependencies between parts because PP has two kinds of dependencies: functions depend on data, and functions depend on functions. Remember, OOP, with encapsulation, has only one kind -- the last one.*
 
 Don't worry! In ECS, systems don't depend systems.
 
->Hmm, but, PP is terrible because in reality data structures are usually changed, and this leads to changes of all dependent functions.
+*Hmm, but, PP is terrible because in reality data structures are usually changed, and this leads to changes of all dependent functions.*
 
 Don't worry! In an ECS architecture, because of the clear organization, when a component structure is changed, we know that it will lead to changes in the systems only, and it is not too difficult to find out and fix those changes in the related systems. One could argue that in game development, data structures are more stable than functions.
 

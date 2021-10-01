@@ -66,7 +66,9 @@ Or we can use the operator `>=>`:
     
     f1 >=> f2
 
->Please remember that `>=>` means `magicCompose`.
+{{< admonition tip Remember >}}
+`>=>` means `magicCompose`.
+{{< /admonition >}}
 
 ## The bind function
 
@@ -93,7 +95,9 @@ Or using the operator `>>=`:
  
 As we can see, the `magicCompose` function is merely built on-top of the `bind` function.
 
->Please remember that `>>=` means `bind`.
+{{< admonition tip Remember >}}
+`>>=` means `bind`.
+{{< /admonition >}}
 
 ## The unit function
 
@@ -140,17 +144,23 @@ Signature of the `map` function:
     map: (A -> A) -> M -> M
     //      f4       m
 
->Please remember that `<!>` means `map`.
+{{< admonition tip Remember >}}
+`<!>` means `map`.
+{{< /admonition >}}
 
 ## Monad definition
 
 Now we have the definition of a monad:
 
->The two types `A` and `M`, together with the `bind` and `unit` functions, define a monad.
+{{< admonition note What >}}
+The two types `A` and `M`, together with the `bind` and `unit` functions, define a monad.
+{{< /admonition >}}
 
 and recognize its importance:
 
->Monads helps composing incompatible functions.
+{{< admonition note Why >}}
+Monads helps composing incompatible functions.
+{{< /admonition >}}
 
 There is an interesting analogy: if the set of the `A -> M` functions was a set of numbers, then the `magicCompose` operator would be an numeric operator like `+` `-` `*` `/`, and the `unit` function would be the _neural number_ (like `0` for `+`, or `1` for `*`).
 

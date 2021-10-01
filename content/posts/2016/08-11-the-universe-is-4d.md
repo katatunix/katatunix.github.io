@@ -12,7 +12,9 @@ images: [ /images/2016/08-11-the-universe-is-4d/universe.webp ]
 
 [This statement](http://withouttheloop.com/articles/2016-08-09-mathematics/):
 
->Little did they know that the universe is four dimensional and even the orbit of planets is an illusion produced when straight motion in a four dimensional space is projected into three dimensions (or something).
+{{< admonition quote >}}
+Little did they know that the universe is four dimensional and even the orbit of planets is an illusion produced when straight motion in a four dimensional space is projected into three dimensions (or something).
+{{< /admonition >}}
 
 immediately reminded me about [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry) which is one of the most beautiful systems of mathematics.
 
@@ -22,7 +24,7 @@ So the universe is 4D! But how can we imagine a 4D space? It's nearly impossible
 
 The funny part is when you travel to a point at infinity and meet a stranger there. If you ask him about the coordinates of the current point you may get a very different answer: the point is not at infinity in his eyes! What does this mean?
 
-The 3D world we are living in and perceiving is just one particular 3D space projected from a 4D space -- the universe. Infinite points of this world are finite ones of other worlds. The only way to move from a world to other worlds is travelling to infinity of that world. The number of worlds may be infinite too.
+The 3D world we are living in and perceiving is just one particular 3D space projected from a 4D space -- the universe. Infinite points of this world are finite ones of other worlds. The only way to move from a world to other worlds is traveling to infinity of that world. The number of worlds may be infinite too.
 
 Ironically...
 

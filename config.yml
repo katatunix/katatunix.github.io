@@ -8,7 +8,7 @@ theme: LoveIt
 
 params:
   version: 0.2.X
-  defaultTheme: auto
+  defaultTheme: dark
   dateFormat: January 02, 2006
   images: [ lambda.jpg ]
   description: Welcome to my world - I talk to the wind
