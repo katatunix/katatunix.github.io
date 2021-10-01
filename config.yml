@@ -1,7 +1,6 @@
 baseURL: https://katatunix.github.io
 languageCode: en-us
 title: Nghia Bui
-description: Welcome to my world - I talk to the wind
 author:
   name: Nghia
 
@@ -12,6 +11,7 @@ params:
   defaultTheme: auto
   dateFormat: January 02, 2006
   images: [ logo.jpg ]
+  description: Welcome to my world - I talk to the wind
   home:
     profile:
       enable: true
