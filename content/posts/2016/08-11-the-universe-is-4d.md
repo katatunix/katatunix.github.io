@@ -1,11 +1,13 @@
 ---
 title: The universe is 4D?
 subtitle: The relationship between universe and projective geometry.
+description: The relationship between universe and projective geometry.
 date: 2016-08-11
 categories: [ Math ]
 tags: [ universe, projective-geometry, four-dimensional-space ]
 toc: false
-featuredImage: /images/universe.webp
+featuredImage: /images/2016/08-11-the-universe-is-4d/universe.webp
+images: [ /images/2016/08-11-the-universe-is-4d/universe.webp ]
 ---
 
 [This statement](http://withouttheloop.com/articles/2016-08-09-mathematics/):
