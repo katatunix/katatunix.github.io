@@ -15,7 +15,7 @@ params:
   home:
     profile:
       enable: true
-      gravatarEmail: katatunix@gmail.com
+      avatarURL: "logo.jpg"
       title: Welcome to my world
       subtitle: I talk to the wind
       typeit: true
