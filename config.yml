@@ -1,0 +1,77 @@
+baseURL: https://katatunix.github.io
+languageCode: en-us
+title: Nghia Bui
+author:
+  name: Nghia
+
+theme: LoveIt
+
+params:
+  version: 0.2.X
+  defaultTheme: auto
+  dateFormat: January 02, 2006
+  images: [ logo.jpg ]
+  home:
+    profile:
+      enable: true
+      gravatarEmail: katatunix@gmail.com
+      title: Welcome to my world
+      subtitle: I talk to the wind
+      typeit: true
+      social: true
+  social:
+    email: katatunix@gmail.com
+    facebook: katatunix
+    twitter: katatunix
+    stackoverflow: 2198705
+    linkedin: nghia-bui-02323b56
+    skype: live:katatunix
+    rss: true
+  footer:
+    enable: true
+    custom: Powered by Hugo and LoveIt
+    hugo: false    
+    copyright: true
+    author: true
+  page:
+    comment:
+      enable: true
+      disqus:
+        enable: true
+        shortname: katatunix
+    share:
+      enable: true
+      twitter: true
+      facebook: true
+      linkedin: true
+    code:
+      maxShownLines: 100
+    math:
+      enable: true
+  search:
+    enable: true
+    type: lunr
+  section:
+    dateFormat: Jan 02
+  list:
+    dateFormat: Jan 02
+  
+menu:
+  main:
+    - name: Posts
+      url: /posts
+      weight: 1
+    - name: Categories
+      url: /categories
+      weight: 2
+    - name: Tags
+      url: /tags
+      weight: 3
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+
+outputs:
+  home: [ HTML, RSS, JSON]
