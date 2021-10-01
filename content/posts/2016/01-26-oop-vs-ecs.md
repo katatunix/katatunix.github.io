@@ -72,9 +72,7 @@ Currently, for each entity kind, we have a concrete class for it (e.g. the `Mari
 ### Solution
 
 * Only one class for every entity kind: `Entity` class.
-
 * `Entity` should not know about the concrete classes of its components. Rather, `Entity` simply holds references to all of its components in which each component is declared as belonging to an abstract type: `Component` class.
-
 * This extreme design requires every entity doesn't have its specific behaviors anymore (e.g., the `fire` behavior of `Mario`). All the behaviors must be extracted to components. An entity is merely a bag of components, nothing more.
 
 To be honest, the two problems above are not caused by OOP. Indeed, our proposed solutions so far haven't broken any principle of OOP. However, consider the following important problems.
