@@ -20,4 +20,6 @@ Unchecked-exceptions basically don't solve the problem of null. But at least the
 
 `NullObject` pattern can avoid crashing when we forget checking the returned object, but then we might forget it forever since no error is thrown at both compile-time and run-time. Moreover, in order to use `NullObject` pattern we have to change a class to an interface, sometimes such a change is not desired.
 
-Recently, `Optional` has been emerged as a good alternative for `null`. In my opinion, this alternative still has the problem of checked-exceptions. If we aren't careful, `Optional` could be everywhere in our code. A disadvantage of `Optional` is, to achieve clean code we have to learn `Maybe` monad, `map`, `reduce`, `filter` — these are very important concepts of Functional Programming. But when we grasp the concepts, it's really great!
+Recently, `Optional` has been emerged as a good alternative for `null`. In my opinion, this alternative still has the problem of checked-exceptions. If we aren't careful, `Optional` could be everywhere in our code. A disadvantage of `Optional` is, to achieve clean code we have to learn `Maybe` monad, `map`, `reduce`, `filter` -- these are very important concepts of Functional Programming. But when we grasp the concepts, it's really great!
+
+*[Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare) is the author of the quote in the featured image.*
