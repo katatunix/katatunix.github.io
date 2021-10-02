@@ -66,7 +66,9 @@ The second step described above is actually over-specific, though it is the most
 In fact, we need to make the `magicCompose` function be generic so that it can work with other functions, like `f3`, not only `f1` and `f2`. Thus, the type of the `magicCompose` function should be generic:
 
     magicCompose:
-        ('T -> M<'U>) -> ('U -> M<'V>) -> ('T -> M<'V>)
+        ('T -> M<'U>)
+          -> ('U -> M<'V>)
+          -> ('T -> M<'V>)
 
 Use it:
 
