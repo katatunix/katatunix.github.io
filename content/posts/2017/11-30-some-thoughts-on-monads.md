@@ -192,7 +192,7 @@ Regarding the 2nd law, consider when we want to `magicCompose` a function `f` wi
 
     f >=> (id >> unit)
 
-In our subconscious, every function when composing with `id` will produces the same function. We want this rule to apply to `magicCompose` too. Therefore, we want to see:
+In our subconscious, every function when composing with `id` will produce the same function. We want this rule to apply to `magicCompose` too. Therefore, we want to see:
 
     f >=> (id >> unit) = f
 
