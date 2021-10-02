@@ -55,8 +55,9 @@ The second step described above is actually over-specific, though it is the most
 
 The signature of the `magicCompose` function:
 
-    magicCompose: (A -> M) -> (A -> M) -> (A -> M)
-    //               f1          f2        result
+    magicCompose:
+      (A -> M) -> (A -> M) -> (A -> M)
+    //   f1          f2        result
 
 Use it:
 
