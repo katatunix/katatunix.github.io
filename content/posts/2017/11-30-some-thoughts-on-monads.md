@@ -86,7 +86,7 @@ Or we can use the operator `>=>`:
 
 Sometimes, we don't want to do `magicCompose` on `f1` and `f2`. For example, we may call `f1` first, then receive something `m` of type `M<B>`; or all we have is just something `m` of type `M<B>`.
 
-Then we need a function which helps passing `m` to `f2`.
+Then we need a function which helps passing `m` to `f2`, and finally receive a result of type `M<C>`.
 
 This function actually does the second step of the `magicCompose` function as described above. We call it the `bind` function. The operator counterpart is `>>=`.
 
