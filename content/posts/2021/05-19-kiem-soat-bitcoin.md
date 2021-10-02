@@ -16,11 +16,11 @@ Cần phải hiểu đúng nghĩa của từ "kiểm soát" trong ngữ cảnh n
 
 ### Phát hành (issue)
 
-Giao thức bitcoin đã quy định rõ tổng cộng có 21 triệu bitcoin được phát hành theo một tần suất xác định. Dĩ nhiên, quy định do con người đặt ra thì con người cũng sửa đổi được. Vấn đề là cái “con người” ấy phải thuyết phục được “toàn bộ con người”. Bitcoin -- với lịch sử hoạt động lâu nhất và lực lượng miner hùng hậu nhất -- đang có tính decentralized rất cao. Đến bố của elon cũng không sửa giao thức được.
+Giao thức bitcoin đã quy định rõ tổng cộng có 21 triệu bitcoin được phát hành theo một tần suất xác định. Dĩ nhiên, quy định do con người đặt ra thì con người cũng sửa đổi được. Vấn đề là cái "con người" ấy phải thuyết phục được "toàn bộ con người". Bitcoin -- với lịch sử hoạt động lâu nhất và lực lượng miner hùng hậu nhất -- đang có tính decentralized rất cao. Đến bố của elon cũng không sửa giao thức được.
 
 ### Lưu thông (circulation)
 
-Bitcoin được chuyển đi / nhận về thông qua một cơ chế hết sức đặc biệt và có thể nói là tinh tuý của nó: đào. Một lần nữa decentralization phát huy tác dụng: không có chuyện toàn bộ miner trên thế giới rủ nhau đi nghỉ hoặc cấu kết từ chối giao dịch. Ngoài mặt có thể đồng ý nghỉ nhưng ở nhà lén đào vì mấy thằng kia nghỉ hết thì mình đào mới thơm.
+Bitcoin được chuyển đi / nhận về thông qua một cơ chế hết sức đặc biệt và có thể nói là tinh tuý của nó: đào. Một lần nữa decentralization phát huy tác dụng: không có chuyện toàn bộ thợ đào trên thế giới rủ nhau đi nghỉ hoặc cấu kết từ chối giao dịch. Ngoài mặt có thể đồng ý nghỉ nhưng ở nhà lén đào vì mấy thằng kia nghỉ hết thì mình đào mới thơm.
 
 Dưới đây là abstract của [bitcoin white paper](https://bitcoin.org/bitcoin.pdf), mỗi một chữ đều là lời vàng ngọc.
 
