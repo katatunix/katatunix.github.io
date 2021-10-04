@@ -5,8 +5,8 @@ description: Yet another explanation on monads in the context of functional prog
 date: 2017-11-30
 categories: [ Programming ]
 tags: [ functional-programming, monad, design-pattern ]
-featuredImage: /images/2017/11-30-some-thoughts-on-monads/featured.jpg
-images: [ /images/2017/11-30-some-thoughts-on-monads/featured.jpg ]
+featuredImage: featured.jpg
+images: [ featured.jpg ]
 ---
 
 I know, I know, the world does not need yet another explanation on monads. There have been a lot of related articles you can find on the Internet. Still, most of them are so math-intensive that we as software developers (we aren't good at math) don't want to read. So please give me a try to explain monads to you. I think they are worth knowing about. No math knowledge is required. What I want from you is just a basic knowledge of programming with types and functions.

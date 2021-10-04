@@ -5,8 +5,8 @@ description: Hiểu cho đúng về nghĩa của từ “kiểm soát“ trong n
 date: 2021-05-19
 categories: [ Cryptocurrency ]
 tags: [ bitcoin ]
-featuredImage: /images/2021/05-19-kiem-soat-bitcoin/featured.jpeg
-images: [ /images/2021/05-19-kiem-soat-bitcoin/featured.png ]
+featuredImage: featured.jpeg
+images: [ featured.png ]
 toc: false
 ---
 

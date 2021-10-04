@@ -6,8 +6,8 @@ date: 2016-08-11
 categories: [ Math ]
 tags: [ universe, projective-geometry, four-dimensional-space ]
 toc: false
-featuredImage: /images/2016/08-11-the-universe-is-4d/universe.webp
-images: [ /images/2016/08-11-the-universe-is-4d/universe.webp ]
+featuredImage: featured.webp
+images: [ featured.webp ]
 ---
 
 [This statement](http://withouttheloop.com/articles/2016-08-09-mathematics/):

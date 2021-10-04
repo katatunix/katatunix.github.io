@@ -6,8 +6,8 @@ date: 2016-08-03
 categories: [ Programming ]
 tags: [ 'null', exception, optional ]
 toc: false
-featuredImage: /images/2016/08-03-null-references-the-billion-dollar-mistake/featured.jpg
-images: [ /images/2016/08-03-null-references-the-billion-dollar-mistake/featured.jpg ]
+featuredImage: featured.jpg
+images: [ featured.jpg ]
 ---
 
 `Null` is clearly evil. We as human tend to forget to check `null`, and boom... crash!!! Documentation may help, but again we still forget reading documents. Worse, not all documents are correct and up-to-date 100%. Even if we remember to do every `null` check, our code would be very messy.

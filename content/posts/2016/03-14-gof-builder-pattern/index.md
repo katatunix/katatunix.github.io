@@ -5,8 +5,8 @@ date: 2016-03-14
 categories: [ Programming ]
 tags: [ gang-of-four, design-pattern, builder-pattern ]
 toc: false
-featuredImage: /images/2016/03-14-gof-builder-pattern/featured.png
-images: [ /images/2016/03-14-gof-builder-pattern/featured.png ]
+featuredImage: featured.png
+images: [ featured.png ]
 ---
 
 Builder Pattern and Factory Pattern are pretty similar in a way: both of them encapsulate the details of object-creation processes. However, in cases there are many complicated processes to create various representations of objects, and those processes share a common trait, Builder Pattern is the better choice.
