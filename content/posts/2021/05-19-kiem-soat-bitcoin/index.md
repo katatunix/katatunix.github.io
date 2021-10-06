@@ -6,7 +6,7 @@ date: 2021-05-19
 categories: [ Cryptocurrency ]
 tags: [ bitcoin ]
 featuredImage: featured.jpeg
-images: [ featured.png ]
+images: [ featured.jpeg ]
 toc: false
 ---
 
