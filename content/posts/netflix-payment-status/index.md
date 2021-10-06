@@ -14,6 +14,12 @@ comment:
     enable: false
 ---
 
+### Thông tin gói đang dùng:
+
+* Tên gói: `Netflix Premium`
+* Giá: `260,000` VND / month
+* Đóng tiền mỗi người: `65,000` VND / month
+
 {{< admonition tip >}}
 Đóng qua MoMo `0347270787` là cách tiện lợi nhất.
 {{< /admonition >}}
