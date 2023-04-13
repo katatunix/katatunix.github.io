@@ -3,8 +3,8 @@ title: Netflix payment status
 subtitle: Đóng tiền đúng hẹn, hạnh phúc sẽ tới
 date: 2021-10-06
 lastmod: 2021-10-06
-featuredImage: featured.jpg
-images: [ featured.jpg ]
+featuredImage: featured.png
+images: [ featured.png ]
 toc: false
 hiddenFromHomePage: true
 hiddenFromSearch: true
