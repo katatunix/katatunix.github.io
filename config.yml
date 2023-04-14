@@ -74,6 +74,10 @@ menu:
     - name: Tags
       url: /tags
       weight: 3
+    - name:
+      pre: <i class='fab fa-github fa-fw'></i>
+      url: https://github.com/katatunix/katatunix.github.io
+      weight: 4
 
 markup:
   highlight:
