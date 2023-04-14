@@ -38,8 +38,15 @@ params:
     comment:
       enable: true
       disqus:
-        enable: true
+        enable: false
         shortname: katatunix
+      utterances:
+        enable: true
+        repo: katatunix/katatunix.github.io
+        issueTerm: pathname
+        label: Comment
+        lightTheme: github-light
+        darkTheme: github-dark
     share:
       enable: true
       twitter: true
