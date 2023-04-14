@@ -38,11 +38,8 @@ params:
     comment:
       enable: true
       disqus:
-        enable: false
-        shortname: katatunix
-      telegram:
         enable: true
-        siteID: yb1fulY9
+        shortname: katatunix
     share:
       enable: true
       twitter: true
