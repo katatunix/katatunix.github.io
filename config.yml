@@ -29,8 +29,8 @@ params:
     rss: true
   footer:
     enable: true
-    custom: Powered by Hugo and LoveIt
-    hugo: false    
+    custom:
+    hugo: true    
     copyright: true
     author: true
   page:
