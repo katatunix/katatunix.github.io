@@ -15,7 +15,7 @@ toc: false
 
 Khi có một văn bản cần kí:
 
-* Người đó dùng private key để tạo chữ kí cho văn bản đó theo 1 thuật toán xác định (ví dụ RS256).
+* Người đó dùng private key để tạo chữ kí cho văn bản đó theo một thuật toán xác định (ví dụ RS256).
 * Người khác nhận được văn bản + chữ kí + public key + tên thuật toán, sẽ kiểm chứng được đây đúng là chữ kí được sinh ra bởi chủ sở hữu của public key đó cho văn bản đó.
 
 Thuật toán mật mã đảm bảo:
