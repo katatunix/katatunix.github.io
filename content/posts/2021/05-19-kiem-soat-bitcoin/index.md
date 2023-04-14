@@ -4,7 +4,7 @@ subtitle: Hiểu cho đúng về nghĩa của từ “kiểm soát“ trong ng�
 description: Hiểu cho đúng về nghĩa của từ “kiểm soát“ trong ngữ cảnh Bitcoin
 date: 2021-05-19
 categories: [ Cryptocurrency ]
-tags: [ bitcoin ]
+tags: [ Bitcoin ]
 featuredImage: featured.jpeg
 images: [ featured.jpeg ]
 toc: false

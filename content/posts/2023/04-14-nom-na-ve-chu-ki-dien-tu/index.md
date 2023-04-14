@@ -2,8 +2,8 @@
 title: 'Nôm na về chữ kí điện tử'
 subtitle: Chữ kí điện tử được sử dụng như thế nào trong hành chính công
 date: 2023-04-14
-categories: [ Tumlum ]
-tags: [ digital-signature, asymmetric-cryptography ]
+categories: [ Cryptography ]
+tags: [ DigitalSignature, AsymmetricCryptography ]
 featuredImage: featured.jpg
 images: [ featured.jpg ]
 toc: false

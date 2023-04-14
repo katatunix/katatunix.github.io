@@ -4,7 +4,7 @@ subtitle: Null is evil
 description: Null is evil
 date: 2016-08-03
 categories: [ Programming ]
-tags: [ 'null', exception, optional ]
+tags: [ 'Null', Exception ]
 toc: false
 featuredImage: featured.jpg
 images: [ featured.jpg ]

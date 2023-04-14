@@ -4,7 +4,7 @@ subtitle: The relationship between universe and projective geometry
 description: The relationship between universe and projective geometry
 date: 2016-08-11
 categories: [ Math ]
-tags: [ universe, projective-geometry, four-dimensional-space ]
+tags: [ Universe, ProjectiveGeometry, 4DSpace ]
 toc: false
 featuredImage: featured.webp
 images: [ featured.webp ]

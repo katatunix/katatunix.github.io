@@ -3,7 +3,7 @@ title: GoF Builder Pattern
 subtitle: My personal explanation for Gang of Four's Builder Pattern
 date: 2016-03-14
 categories: [ Programming ]
-tags: [ gang-of-four, design-pattern, builder-pattern ]
+tags: [ GangOfFour, DesignPattern, BuilderPattern ]
 toc: false
 featuredImage: featured.png
 images: [ featured.png ]

@@ -4,7 +4,7 @@ subtitle: Yet another explanation on monads in the context of functional program
 description: Yet another explanation on monads in the context of functional programming
 date: 2017-11-30
 categories: [ Programming ]
-tags: [ functional-programming, monad, design-pattern ]
+tags: [ FunctionalProgramming, Monad, DesignPattern ]
 featuredImage: featured.jpg
 images: [ featured.jpg ]
 ---
