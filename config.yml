@@ -16,7 +16,6 @@ params:
     profile:
       enable: true
       avatarURL: lambda.jpg
-      description: test
       title: Welcome to my world
       subtitle: I talk to the wind
       typeit: true
@@ -82,4 +81,4 @@ markup:
     lineNos: true
 
 outputs:
-  home: [ HTML, RSS, JSON]
+  home: [ HTML, RSS, JSON ]
