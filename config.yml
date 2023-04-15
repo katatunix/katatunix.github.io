@@ -21,6 +21,7 @@ params:
       typeit: true
       social: true
   social:
+    telegram: nghiabuivan
     email: katatunix@gmail.com
     facebook: katatunix
     twitter: katatunix
