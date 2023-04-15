@@ -94,7 +94,8 @@ $$ (n-\sqrt{n^2-1}) (n+\sqrt{n^2-1}) \\\
 
 Nghĩa là:
 
-$$ n - \sqrt{n^2-1} = \frac{1}{n+\sqrt{n^2-1}} > \frac{1}{n+\sqrt{n^2}} = \frac{1}{2n} $$
+$$ n - \sqrt{n^2-1} = \frac{1}{n+\sqrt{n^2-1}} > \\\
+   \frac{1}{n+\sqrt{n^2}} = \frac{1}{2n} $$
 
 Kết hợp với biểu thức rút gọn `(*)` phía trên ta có:
 
