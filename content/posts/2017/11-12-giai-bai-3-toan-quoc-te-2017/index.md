@@ -61,7 +61,7 @@ $$ AC = OC - OA = \sqrt{n^2-1} - n + d $$
 
 Biết $AC$ rồi thì tính được:
 
-$$ AB^2 = AC^2 + CB^2 =\\\
+$$ AB^2 = AC^2 + CB^2 = \\\
    (\sqrt{n^2-1} - n + d)^2 + 1 $$
 
 Tức là:
@@ -76,12 +76,12 @@ Vậy là $d'^2$ lớn hơn $d^2$ một khoảng bằng $e^2 - 2de + 1$.
 
 Do $d \le 100$ nên:
 
-$$ e^2 - 2de + 1 \ge\\\
-   e^2 - 200e + 1 =\\\
-   (n-\sqrt{n^2-1})^2 - 200(n-\sqrt{n^2-1}) + 1 =\\\
-   2n^2 - 1 - 2n\sqrt{n^2-1}\\\
-   - 200n + 200\sqrt{n^2-1} + 1 =\\\
-   2n (n-\sqrt{n^2-1}) - 200 (n-\sqrt{n^2-1}) =\\\
+$$ e^2 - 2de + 1 \ge \\\
+   e^2 - 200e + 1 = \\\
+   (n-\sqrt{n^2-1})^2 - 200(n-\sqrt{n^2-1}) + 1 = \\\
+   2n^2 - 1 - 2n\sqrt{n^2-1} \\\
+   - 200n + 200\sqrt{n^2-1} + 1 = \\\
+   2n (n-\sqrt{n^2-1}) - 200 (n-\sqrt{n^2-1}) = \\\
    2(n-100) (n-\sqrt{n^2-1}) $$
 
 Rút gọn được `(*)`:
@@ -90,7 +90,7 @@ $$ e^2 - 2de + 1 \ge 2(n-100) (n-\sqrt{n^2-1}) $$
 
 Theo hằng đẳng thức đáng nhớ $(a-b)(a+b)=a^2-b^2$ ta có:
 
-$$ (n-\sqrt{n^2-1}) (n+\sqrt{n^2-1})\\\
+$$ (n-\sqrt{n^2-1}) (n+\sqrt{n^2-1}) \\\
    = n^2 - (n^2-1) = 1 $$
 
 Nghĩa là:
