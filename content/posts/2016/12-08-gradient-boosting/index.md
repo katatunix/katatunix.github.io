@@ -3,8 +3,8 @@ title: Gradient Boosting
 date: 2016-12-08
 categories: [ Math ]
 tags: [ GradientBoosting, MachineLearning ]
-featuredImage: featured.png
-images: [ featured.png ]
+featuredImage: featured.jpg
+images: [ featured.jpg ]
 toc: false
 ---
 
