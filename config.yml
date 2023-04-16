@@ -5,6 +5,7 @@ author:
   name: Nghia
 
 theme: LoveIt
+enableRobotsTXT: true
 
 params:
   version: 0.2.X
