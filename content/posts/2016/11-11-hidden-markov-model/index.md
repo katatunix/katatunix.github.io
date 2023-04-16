@@ -3,8 +3,8 @@ title: Hidden Markov Model
 date: 2016-11-11
 categories: [ Math ]
 tags: [ HiddenMarkovModel, MachineLearning ]
-featuredImage: featured.jpg
-images: [ featured.jpg ]
+featuredImage: featured.png
+images: [ featured.png ]
 toc: false
 ---
 
