@@ -5,6 +5,7 @@ categories: [ Math ]
 tags: [ IMO ]
 featuredImage: featured.jpg
 images: [ featured.jpg ]
+draft: true
 ---
 
 Một bài cực khó của kì thi Toán quốc tế 2017 diễn ra tại Rio de Janeiro vào tháng 7 vừa qua. Theo quan sát của một thanh niên an nam thì chỉ có duy nhất một [thanh niên nga ngố](https://www.imo-official.org/team_r.aspx?code=RUS&year=2017) tên là Mikhail Ivanov giải trọn vẹn bài này trong phòng thi. Thanh niên an nam cũng cố giải, nhưng trong [một phòng khác](https://en.wikipedia.org/wiki/Toilet).
