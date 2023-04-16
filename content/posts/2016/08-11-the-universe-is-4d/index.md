@@ -20,9 +20,9 @@ immediately reminded me about [projective geometry](https://en.wikipedia.org/wik
 
 So the universe is 4D? I'm not sure. But if it was true then we could use the concepts of projective geometry to interpret something interesting.
 
-So the universe is 4D! But how can we imagine a 4D space? It's nearly impossible to get a perception of 4D without going out of the current 3D space. What would we meet when we went out of the 3D space? Intuitively, the answer is points at infinity, lines at infinity and a plane at infinity. This begs a question: what are the coordinates of these infinite stuff? Of course using 3 components like `(x, y, z)` is insufficient. That's why we need 4 components `(x, y, z, w)` to represent all points/lines/planes including finite and infinite ones. Hence the name 4D.
+So the universe is 4D! But how can we imagine a 4D space? It's nearly impossible to get a perception of 4D without going out of the current 3D space. What would we meet when we went out of the 3D space? Intuitively, the answer is points at infinity, lines at infinity and a plane at infinity. This begs a question: what are the coordinates of these infinite stuff? Of course using 3 components like $(x, y, z)$ is insufficient. That's why we need 4 components $(x, y, z, w)$ to represent all points/lines/planes including finite and infinite ones. Hence the name 4D.
 
-Projective geometry uses [homogeneous coordinate system](https://en.wikipedia.org/wiki/Homogeneous_coordinates) in which `(x, y, z, 0)` represents a point at infinity following `(x, y, z)` direction, and `(x, y, z, w)` with `w <> 0` represents a normal point with usual coordinate `(x/w, y/w, z/w)`.
+Projective geometry uses [homogeneous coordinate system](https://en.wikipedia.org/wiki/Homogeneous_coordinates) in which $(x, y, z, 0)$ represents a point at infinity following $(x, y, z)$ direction, and $(x, y, z, w)$ with $w \ne 0$ represents a normal point with usual coordinate $(x/w, y/w, z/w)$.
 
 The funny part is when you travel to a point at infinity and meet a stranger there. If you ask him about the coordinates of the current point you may get a very different answer: the point is not at infinity in his eyes! What does this mean?
 
