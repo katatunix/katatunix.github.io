@@ -6,14 +6,12 @@ author:
 
 theme: LoveIt
 enableRobotsTXT: true
-enableGitInfo: true
 
 params:
-  gitRepo: "https://github.com/katatunix/katatunix.github.io"
   defaultTheme: dark
   dateFormat: January 02, 2006
   title: Nghia Bui
-  images: [ lambda.jpg ]
+  images: [ "/lambda.jpg" ]
   description: Welcome to my world - I talk to the wind
   header:
     title:
@@ -21,7 +19,7 @@ params:
   home:
     profile:
       enable: true
-      avatarURL: lambda.jpg
+      avatarURL: "/lambda.jpg"
       title: Welcome to my world
       subtitle: I talk to the wind
       typeit: true
