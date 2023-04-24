@@ -12,7 +12,7 @@ hiddenFromSearch: true
 share:
     enable: false
 comment:
-    enable: false
+    enable: true
 ---
 
 ### Thông tin gói đang dùng:
