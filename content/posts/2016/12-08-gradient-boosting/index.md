@@ -3,9 +3,10 @@ title: Gradient Boosting
 date: 2016-12-08
 categories: [ Math ]
 tags: [ GradientBoosting, MachineLearning ]
-featuredImage: featured.jpg
-images: [ featured.jpg ]
 toc: false
+resources:
+  - name: featured-image
+    src: featured.jpg
 ---
 
 Gradient Boosting is a machine learning technique which boosts weak learners to strong ones by using gradient.

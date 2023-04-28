@@ -6,8 +6,9 @@ date: 2016-08-11
 categories: [ Math ]
 tags: [ Universe, ProjectiveGeometry, 4DSpace ]
 toc: false
-featuredImage: featured.webp
-images: [ featured.webp ]
+resources:
+  - name: featured-image
+    src: featured.webp
 ---
 
 [This statement](http://withouttheloop.com/articles/2016-08-09-mathematics/):

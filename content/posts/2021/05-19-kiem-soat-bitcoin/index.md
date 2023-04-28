@@ -1,13 +1,14 @@
 ---
-title: '“Kiểm soát“ Bitcoin?'
-subtitle: Hiểu cho đúng về nghĩa của từ “kiểm soát“ trong ngữ cảnh Bitcoin
-description: Hiểu cho đúng về nghĩa của từ “kiểm soát“ trong ngữ cảnh Bitcoin
+title: '"Kiểm soát" Bitcoin?'
+subtitle: Hiểu cho đúng về nghĩa của từ "kiểm soát" trong ngữ cảnh Bitcoin
+description: Hiểu cho đúng về nghĩa của từ "kiểm soát" trong ngữ cảnh Bitcoin
 date: 2021-05-19
 categories: [ Cryptocurrency ]
 tags: [ Bitcoin ]
-featuredImage: featured.jpeg
-images: [ featured.jpeg ]
 toc: false
+resources:
+  - name: featured-image
+    src: featured.jpg
 ---
 
 Sau sự kiện elon musk thao túng giá bitcoin, rất nhiều bạn mỉa mai phàn nàn: "mục tiêu của bitcoin là để không bị chính phủ kiểm soát, nhưng rốt cục lại bị cá nhân/mập kiểm soát, hố hố".

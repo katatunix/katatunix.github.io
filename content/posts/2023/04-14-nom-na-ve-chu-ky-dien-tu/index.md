@@ -1,12 +1,13 @@
 ---
-title: 'Nôm na về chữ ký điện tử'
+title: Nôm na về chữ ký điện tử
 subtitle: Chữ ký điện tử được sử dụng như thế nào trong hành chính công
 date: 2023-04-14
 categories: [ Cryptography ]
 tags: [ DigitalSignature, AsymmetricCryptography ]
-featuredImage: featured.jpg
-images: [ featured.jpg ]
 toc: false
+resources:
+  - name: featured-image
+    src: featured.jpg
 ---
 
 Nhân dịp [người dân Hà Nội được cấp chữ ký số miễn phí trên phố đi bộ hồ Gươm](https://vietnamnet.vn/nguoi-dan-ha-noi-duoc-cap-chu-ky-so-mien-phi-tren-pho-di-bo-ho-guom-2130229.html), cùng tìm hiểu -- hết sức nôm na -- về chữ ký điện tử.

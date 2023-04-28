@@ -5,8 +5,9 @@ description: My personal explanation and justification for ECS
 date: 2016-01-26
 categories: [ Programming ]
 tags: [ OOP, ProceduralProgramming, ECS, GameDevelopment ]
-featuredImage: featured.png
-images: [ featured.png ]
+resources:
+  - name: featured-image
+    src: featured.png
 ---
 
 In recent years, Entity-Component System (ECS) has been recognized as the most notable architecture for game development. There are many good articles about the architecture that can be found on the Internet, some of them are:
