@@ -53,7 +53,7 @@ Notice that, the initial View and the final View are not necessarily the same. T
 This case is rare but it's worth to be aware. Actually, in the classic definition of MVC, the initial View is not mentioned, only the final one is. Nevertheless, I find that mention of the initial View would make easier to understand the pattern.
 
 {{< admonition type=note title="Input converting note" >}}
-There is a detail of input converting: sometimes the converting fails due to invalid input, thus an _input validation_ is implied when converting. If a failure happens, the Controller will -- without any intervention of the Model -- directly notify output (e.g. an error message) to the View or the Presenter in case of MVCP. But this validation should cover the converting only. I've seen people involving business logics -- which inherently belong to the Model -- when validating input in the Controller. This would scatter business logics across the Model and the Controller, and therefore, in my opinion, should be restricted.
+There is a detail of input converting: sometimes the converting fails due to invalid input, thus an _input validation_ is implied when converting. If a failure happens, the Controller will -- without any intervention of the Model -- directly notify output (e.g. an error message) to the View. But this validation should cover the converting only. I've seen people involving business logics -- which inherently belong to the Model -- when validating input in the Controller. This would scatter business logics across the Model and the Controller, and therefore, in my opinion, should be restricted.
 {{< /admonition >}}
 
 MVC pattern still leaves the logic of output converting in the View. If we don't like this, we could adopt the MVP pattern.
