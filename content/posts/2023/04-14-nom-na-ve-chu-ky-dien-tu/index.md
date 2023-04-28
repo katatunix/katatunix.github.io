@@ -1,6 +1,7 @@
 ---
 title: Nôm na về chữ ký điện tử
 subtitle: Chữ ký điện tử được sử dụng như thế nào trong hành chính công
+description: Chữ ký điện tử được sử dụng như thế nào trong hành chính công
 date: 2023-04-14
 categories: [ Cryptography ]
 tags: [ DigitalSignature, AsymmetricCryptography ]

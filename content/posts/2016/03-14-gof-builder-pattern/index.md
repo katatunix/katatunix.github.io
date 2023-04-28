@@ -1,6 +1,7 @@
 ---
 title: GoF Builder Pattern
 subtitle: My personal explanation for Gang of Four's Builder Pattern
+description: My personal explanation for Gang of Four's Builder Pattern
 date: 2016-03-14
 categories: [ Programming ]
 tags: [ GangOfFour, DesignPattern, BuilderPattern ]
