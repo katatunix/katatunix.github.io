@@ -19,7 +19,7 @@ Xét ví dụ bài toán phát biểu như sau:
 >
 >2) Ngược lại, cho số nguyên `k` thuộc `1..n!`, hãy tìm dãy `a` là hoán vị có số thứ tự `k`.
 >
->Lưu ý là thứ tự bắt đầu tính từ `1`.
+>Lưu ý là thứ tự bắt đầu tính từ `0`.
 
 Trước hết là câu _1_, giải thích qua ví dụ thì dễ dàng hơn, chẳng hạn với `n = 5` và dãy `a = [ 4, 5, 3, 1, 2 ]`. Tư tưởng là đi đếm xem có bao nhiêu hoán vị bé hơn `a`. Những hoán vị bé hơn `a` dễ thấy nhất có dạng:
 
@@ -45,7 +45,7 @@ Câu _2_ suy ngược lại từ câu _1_, vẫn lấy ví dụ `n = 5`, nhận 
     4! các hoán vị dạng [ 4, x, x, x, x ]
     4! các hoán vị dạng [ 5, x, x, x, x ]
 
-Để tìm `a[1]`, tức là tìm xem dãy `a` thuộc dạng nào trong `5` dạng trên, chỉ cần lấy thương trong phép chia `k` cho `4!`. Để tìm `a[2]`, ta lại đi sâu vào dạng mới tìm được, tính xem dãy `a` là thứ mấy trong dạng đó bằng cách lấy dư trong phép chia `k` cho `4!`. Cứ thế cho đến hết.
+Để tìm `a[1]`, tức là tìm xem dãy `a` thuộc dạng nào trong `5` dạng trên, chỉ cần lấy thương trong phép chia `k` cho `4!`. Để tìm `a[2]`, ta lại đi sâu vào dạng mới tìm được với số thứ tự là số dư trong phép chia `k` cho `4!`. Cứ thế cho đến `a[n]`.
 
 Code minh họa:
 
@@ -121,4 +121,40 @@ void main() {
  
     getch();
 }
+```
+
+2023/05/07 -- Cập nhật code minh họa F# thần chưởng:
+
+```fsharp
+let [<Literal>] MaxN = 10
+
+let factorials =
+    Seq.unfold
+        (fun (last, n) -> (last, (last * n, n + 1)) |> Some)
+        (1, 1)
+    |> Seq.take MaxN
+    |> Array.ofSeq
+
+let rec indexOf = function
+    | [] -> 0
+    | head :: tail ->
+        (tail |> Seq.filter ((>) head) |> Seq.length)
+        * factorials[tail.Length]
+        + indexOf tail
+
+let listAt tokens index =
+    let rec loop n index =
+        match n with
+        | 0 -> []
+        | _ -> index / factorials[n-1]
+               :: loop (n-1) (index % factorials[n-1])
+    loop (tokens|>List.length) index
+    |> List.mapFold
+        (fun tokens i -> tokens|>List.item i, tokens|>List.removeAt i)
+        tokens
+    |> fst
+
+// Test:
+indexOf [ 4;5;3;1;2 ] // 94
+listAt [ 1;2;3;4;5 ] 94 // [ 4;5;3;1;2 ]
 ```
