@@ -1,6 +1,7 @@
 ---
 title: Thứ tự từ điển
 date: 2008-09-29
+lastmod: 2023-05-07
 categories: [ Programming ]
 tags: [ Algorithm ]
 toc: false
@@ -13,13 +14,13 @@ Các bài toán về thứ tự từ điển thì có cách giải thông thư�
 
 Xét ví dụ bài toán phát biểu như sau:
 
->Cho số nguyên dương `n`:
+> Cho số nguyên dương `n`:
 >
->1) Với dãy `a[1], a[2] ... a[n]` là một hoán vị các số nguyên từ `1` đến `n`, hãy tính thứ tự từ điển của hoán vị này.
+> 1) Với dãy `a` là một hoán vị các số nguyên từ `1` đến `n`, hãy tính thứ tự từ điển của hoán vị này.
 >
->2) Ngược lại, cho số nguyên `k` thuộc `1..n!`, hãy tìm dãy `a` là hoán vị có số thứ tự `k`.
+> 2) Ngược lại, cho số tự nhiên `k` bé hơn `n!`, hãy tìm dãy `a` là hoán vị có số thứ tự `k`.
 >
->Lưu ý là thứ tự bắt đầu tính từ `0`.
+> Lưu ý là thứ tự bắt đầu tính từ `0`.
 
 Trước hết là câu _1_, giải thích qua ví dụ thì dễ dàng hơn, chẳng hạn với `n = 5` và dãy `a = [ 4, 5, 3, 1, 2 ]`. Tư tưởng là đi đếm xem có bao nhiêu hoán vị bé hơn `a`. Những hoán vị bé hơn `a` dễ thấy nhất có dạng:
 
@@ -45,7 +46,7 @@ Câu _2_ suy ngược lại từ câu _1_, vẫn lấy ví dụ `n = 5`, nhận 
     4! các hoán vị dạng [ 4, x, x, x, x ]
     4! các hoán vị dạng [ 5, x, x, x, x ]
 
-Để tìm `a[1]`, tức là tìm xem dãy `a` thuộc dạng nào trong `5` dạng trên, chỉ cần lấy thương trong phép chia `k` cho `4!`. Để tìm `a[2]`, ta lại đi sâu vào dạng mới tìm được với số thứ tự là số dư trong phép chia `k` cho `4!`. Cứ thế cho đến `a[n]`.
+Để tính phần tử đầu tiên của `a`, ta sẽ tìm xem dãy `a` thuộc dạng nào trong `5` dạng trên, chỉ cần lấy thương trong phép chia `k` cho `4!`. Để tính phần tử tiếp theo của `a`, ta lại đi sâu vào dạng mới tìm được với số thứ tự là số dư trong phép chia `k` cho `4!`. Cứ thế cho đến khi tính được phần tử cuối cùng của `a`.
 
 Code minh họa:
 
