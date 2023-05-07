@@ -129,33 +129,40 @@ void main() {
 ```fsharp
 let [<Literal>] MaxN = 10
 
-let factorials =
-    Seq.unfold
-        (fun (last, n) -> (last, (last * n, n + 1)) |> Some)
-        (1, 1)
+let extract list i =
+  list |> List.item i,
+  list |> List.removeAt i
+  
+let count cond seq =
+  seq |> Seq.filter cond |> Seq.length
+
+let fac =
+  Seq.unfold
+    (fun (fac, n) ->
+      (fac, (fac*n, n+1)) |> Some)
+    (1, 1)
     |> Seq.take MaxN
     |> Array.ofSeq
 
 let rec indexOf = function
-    | [] -> 0
-    | head :: tail ->
-        (tail |> Seq.filter ((>) head) |> Seq.length)
-        * factorials[tail.Length]
-        + indexOf tail
+  | [] -> 0
+  | head :: tail ->
+      (tail |> count ((>) head))
+      * fac[tail.Length]
+      + indexOf tail
 
-let listAt tokens index =
-    let rec loop n index =
-        match n with
-        | 0 -> []
-        | _ -> index / factorials[n-1]
-               :: loop (n-1) (index % factorials[n-1])
-    loop (tokens|>List.length) index
-    |> List.mapFold
-        (fun tokens i -> tokens|>List.item i, tokens|>List.removeAt i)
-        tokens
-    |> fst
+let listAt n index =
+  let rec loop n index =
+    match n with
+    | 0 -> []
+    | _ ->
+      index / fac[n-1]
+      :: loop (n-1) (index % fac[n-1])
+  loop n index
+  |> List.mapFold extract [1..n]
+  |> fst
 
 // Test:
 indexOf [ 4;5;3;1;2 ] // 94
-listAt [ 1;2;3;4;5 ] 94 // [ 4;5;3;1;2 ]
+listAt 5 94 // [ 4;5;3;1;2 ]
 ```
