@@ -129,20 +129,12 @@ void main() {
 ```fsharp
 let [<Literal>] MaxN = 10
 
-let extract list i =
-    list |> List.item i,
-    list |> List.removeAt i
+let extract ls i = ls |> List.item i, ls |> List.removeAt i
+  
+let count cond seq = seq |> Seq.filter cond |> Seq.length
 
-let count cond seq =
-    seq |> Seq.filter cond |> Seq.length
-
-let fac =
-    Seq.unfold
-        (fun (fac, n) ->
-            (fac, (fac*n, n+1)) |> Some)
-        (1, 1)
-    |> Seq.take MaxN
-    |> Array.ofSeq
+let fac = Array.create MaxN 1
+for n = 1 to fac.Length-1 do fac[n] <- fac[n-1] * n
 
 let rec indexOf = function
     | [] -> 0
