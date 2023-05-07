@@ -128,9 +128,6 @@ void main() {
 
 ```fsharp
 let [<Literal>] MaxN = 10
-
-let count cond seq = seq |> Seq.filter cond |> Seq.length
-
 let fac = Array.create MaxN 1
 for n = 1 to fac.Length-1 do fac[n] <- fac[n-1] * n
 
@@ -145,9 +142,8 @@ let listAt n order =
     let rec loop n order tokens =
         if n = 0 then []
         else
-            let i = order / fac[n-1]
-            (List.item i tokens)
-            :: loop (n-1) (order % fac[n-1]) (List.removeAt i tokens)
+            let i, order = order </> fac[n-1]
+            tokens[i] :: loop (n-1) order tokens.remove(i)
     loop n order [1..n]
 
 // Test:
