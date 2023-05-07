@@ -127,19 +127,24 @@ void main() {
 2023/05/07 -- Cập nhật code minh họa F# thần chưởng:
 
 ```fsharp
-let [<Literal>] MaxN = 10
-let fac = Array.create MaxN 1
-for n = 1 to fac.Length-1 do fac[n] <- fac[n-1] * n
+let maxN = 10
+let gt = Array.create maxN 1
+for n = 1 to gt.Length-1 do gt[n] <- gt[n-1] * n
+let count predicate = Seq.filter predicate >> Seq.length
+let (</>) a b = a / b, a % b
 
-let orderOf = function
+let rec orderOf = function
     | [] -> 0
-    | head :: tail -> tail.count((>)head) * fac[tail.Length] + orderOf tail
+    | head :: tail ->
+        (tail |> count ((>)head)) * gt[tail.Length] + orderOf tail
 
 let listAt n order =
-    let loop n order tokens =
+    let rec loop n order tokens =
         if n = 0 then []
-        else let i, order = order </> fac[n-1]
-             tokens[i] :: loop (n-1) order tokens.rem(i)
+        else
+            let i, order = order </> gt[n-1]
+            (tokens |> List.item i)
+            :: loop (n-1) order (tokens |> List.removeAt i)
     loop n order [1..n]
 
 // Test:
