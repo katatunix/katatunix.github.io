@@ -136,7 +136,7 @@ let orderOf = function
     | head :: tail -> tail.count((>)head) * fac[tail.Length] + orderOf tail
 
 let listAt n order =
-    let rec loop n order tokens =
+    let loop n order tokens =
         if n = 0 then []
         else let i, order = order </> fac[n-1]
              tokens[i] :: loop (n-1) order tokens.rem(i)
