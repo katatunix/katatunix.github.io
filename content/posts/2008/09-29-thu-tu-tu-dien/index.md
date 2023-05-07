@@ -134,7 +134,7 @@ let count cond seq = seq |> Seq.filter cond |> Seq.length
 let fac = Array.create MaxN 1
 for n = 1 to fac.Length-1 do fac[n] <- fac[n-1] * n
 
-let rec indexOf = function
+let rec orderOf = function
     | [] -> 0
     | head :: tail ->
         (tail |> count ((>) head))
@@ -146,11 +146,11 @@ let listAt n order =
         if n = 0 then []
         else
             let i = order / fac[n-1]
-            (tokens |> List.item i)
-            :: loop (n-1) (order % fac[n-1]) (tokens |> List.removeAt i)
+            (List.item i tokens)
+            :: loop (n-1) (order % fac[n-1]) (List.removeAt i tokens)
     loop n order [1..n]
 
 // Test:
-indexOf [ 4; 5; 3; 1; 2 ] // 94
+orderOf [ 4; 5; 3; 1; 2 ] // 94
 listAt 5 94 // [ 4; 5; 3; 1; 2 ]
 ```
