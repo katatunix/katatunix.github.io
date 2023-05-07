@@ -131,18 +131,15 @@ let [<Literal>] MaxN = 10
 let fac = Array.create MaxN 1
 for n = 1 to fac.Length-1 do fac[n] <- fac[n-1] * n
 
-let rec orderOf = function
+let orderOf = function
     | [] -> 0
-    | head :: tail ->
-        (tail |> count ((>) head))
-        * fac[tail.Length]
-        + indexOf tail
+    | head :: tail -> tail.count((>)head) * fac[tail.Length] + orderOf tail
 
 let listAt n order =
     let rec loop n order tokens =
         if n = 0 then []
         else let i, order = order </> fac[n-1]
-             tokens[i] :: loop (n-1) order tokens.remove(i)
+             tokens[i] :: loop (n-1) order tokens.rem(i)
     loop n order [1..n]
 
 // Test:
