@@ -129,8 +129,6 @@ void main() {
 ```fsharp
 let [<Literal>] MaxN = 10
 
-let extract ls i = ls |> List.item i, ls |> List.removeAt i
-  
 let count cond seq = seq |> Seq.filter cond |> Seq.length
 
 let fac = Array.create MaxN 1
@@ -143,14 +141,14 @@ let rec indexOf = function
         * fac[tail.Length]
         + indexOf tail
 
-let listAt n index =
-    let rec loop n index =
+let listAt n order =
+    let rec loop n order tokens =
         if n = 0 then []
-        else index / fac[n-1]
-             :: loop (n-1) (index % fac[n-1])
-    loop n index
-    |> List.mapFold extract [1..n]
-    |> fst
+        else
+            let i = order / fac[n-1]
+            (tokens |> List.item i)
+            :: loop (n-1) (order % fac[n-1]) (tokens |> List.removeAt i)
+    loop n order [1..n]
 
 // Test:
 indexOf [ 4; 5; 3; 1; 2 ] // 94
