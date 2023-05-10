@@ -11,9 +11,9 @@ resources:
 
 Wikipedia defines imperative and declarative programming as:
 
-> [imperative programming](https://en.wikipedia.org/wiki/Imperative_programming) is a style that uses statements that change a program’s state ... focuses on describing HOW a program operates.
+> [imperative programming](https://en.wikipedia.org/wiki/Imperative_programming) is a style that uses statements that change a program’s state... focuses on describing HOW a program operates.
 >
-> [declarative programming](https://en.wikipedia.org/wiki/Declarative_programming) is a style that expresses the logic of a computation without describing its control flow ... focuses on describing WHAT the program should accomplish in terms of the problem domain.
+> [declarative programming](https://en.wikipedia.org/wiki/Declarative_programming) is a style that expresses the logic of a computation without describing its control flow... focuses on describing WHAT the program should accomplish in terms of the problem domain.
 
 When we read the definition of something, we tend to focus on terms that are already familiar to us, and then use those terms as a metaphor in order to understand the definition. Here in this case, we should think that, for short, imperative programming is about HOW whereas declarative one is about WHAT. Of course, those definitions are correct, but somehow confused and thus difficult to understand. How can we write a program without describing HOW? Finally, the computer must do the job and it must know exactly HOW to do. It turns out that the WHAT here is still a little of HOW, but in a different way.
 
@@ -51,7 +51,7 @@ Yes, this is imperative programming where assignments and semicolons are dominan
 Declarative programming, on the other hands, does not have assignments, and hence does not need semicolons to separate steps, since there is no any step, no state change, no side-effect. In declarative world, everything is declared by its definition. To achieve a task, we have to specify and define its outcome (yeah, it is WHAT). For example, to check whether an integer number is prime, we need a definition and sub-definitions if needed:
 
 * A prime number N is an integer number that is greater than 1, and does not have any divisor from 2 to N-1.
-* A number N that does not have any divisor from 2 to N-1 is ... well, we need recursion. Let's see the code :)
+* A number N that does not have any divisor from 2 to N-1 is... well, we need recursion. Let's see the code :)
 
 Translating to code:
 
