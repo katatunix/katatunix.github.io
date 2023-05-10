@@ -34,7 +34,7 @@ The word INDIVIDUAL is important. Let's look into a typical control flow code:
         doThat;
     }
 
-The code contains multiple INDIVIDUAL steps -- statements, instructions, function calls -- which are DISCRETE and separated by the semicolons. Because these steps are DISCRETE, each of them must change program's state in order to contribute to the whole program; otherwise, that step is meaningless. And assignment is the most popular way to change program's state. The `doThis`, `doThat` in the code above can be one of following statements:
+The code contains multiple INDIVIDUAL steps -- statements, instructions, function calls -- which are DISCRETE and separated by the semicolons. Because these steps are DISCRETE, each of them must change program's state in order to contribute to the whole program; otherwise, that step is meaningless. And using assignments is the most popular way to change program's state. The `doThis`, `doThat` in the code above can be one of following statements:
 
     int x = 0;
     x = 1;
