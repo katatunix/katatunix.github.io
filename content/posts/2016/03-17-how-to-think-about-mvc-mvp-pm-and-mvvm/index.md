@@ -41,14 +41,14 @@ _Depending on one, or two, or three of the View logics are assigned to the man-i
 
 ## MVC: Controller is an input converter
 
-{{< figure src="mvc.png" title="MVC: Controller is an input converter" >}}
+![](mvc.png "MVC: Controller is an input converter")
 
 As depicted in the figure above, in this pattern, only the logic of input converting is assigned to the man-in-the-middle component -- named as Controller. The Controller, after converting the input sent from the View, will send the formatted version to the Model. But then, how are output returned from the Model? Because the Controller doesn't do the output converting, it's better to let this component be unaware of the output. So, the Model should not return the output as Return Values (i.e. using the `return` keyword) to the Controller. Instead, the Model will send the output to the View, through an interface -- this interface is called _Use Case Output Port_ -- so the Model will not know about the View (the Model definitely must not know about anything outside it). Of course, when the View receives the output, it has to do the output converting by itself.
 
 
 Notice that, the initial View and the final View are not necessarily the same. They might be two different Views, as illustrated in the figure below:
 
-{{< figure src="mvc2.png" title="MVC with two different Views" >}}
+![](mvc2.png "MVC with two different Views")
 
 This case is rare but it's worth to be aware. Actually, in the classic definition of MVC, the initial View is not mentioned, only the final one is. Nevertheless, I find that mention of the initial View would make easier to understand the pattern.
 
@@ -60,7 +60,7 @@ MVC pattern still leaves the logic of output converting in the View. If we don't
 
 ## MVP: Presenter is a Controller plus an output converter
 
-{{< figure src="mvp.png" title="MVP: Presenter is a Controller plus an output converter" >}}
+![](mvp.png "MVP: Presenter is a Controller plus an output converter")
 
 As the figure above depicts, both of the two converting logics are now assigned to the man-in-the-middle component. In this manner, the component looks like someone who presents already formatted data to the View, so it could be named as Presenter.
 
@@ -77,7 +77,7 @@ Nothing special to this pattern except that it extracts a Controller from a bulk
 
 MVCP pattern is not mine (but the name might be), it was introduced by Uncle Bob in his workshop [Architecture -- The Lost Years](http://confreaks.tv/videos/rubymidwest2011-keynote-architecture-the-lost-years):
 
-{{< figure src="mvcp.jpg" title="Uncle Bob in his workshop Architecture - The Lost Years" >}}
+![](mvcp.jpg "Uncle Bob in his workshop Architecture - The Lost Years")
 
 In the diagram, the Interactor is actually the Model (or use-case object), the upper Boundary interface is the Use Case Input Port, the lower one is the Use Case Output Port. See the workshop or read [this article](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) of Uncle Bob for more information.
 
@@ -89,7 +89,7 @@ Even a simple View contains a lot of states: text colors, font sizes, font style
 
 Obviously, the model states of a View belong to that View and thus are held by that View. So, by saying "Presenter holds all the model states of the View" we mean that the Presenter holds a copy of all the model states of the View. This requires a synchronization mechanism: every change of the model states in the View must be notified to the Presenter, and vice-versa. We can see this in the figure below:
 
-{{< figure src="pm.png" title="PM: Presenter holds all the model states of the View in order to perform all View logics" >}}
+![](pm.png "PM: Presenter holds all the model states of the View in order to perform all View logics")
 
 Now the View does not need to decide -- as before -- which model states that will be chosen and sent as input to the Presenter. Such logic -- and every logic -- is handled by the Presenter.
 
