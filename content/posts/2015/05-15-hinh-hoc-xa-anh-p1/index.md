@@ -1,6 +1,6 @@
 ---
 title: Hình học xạ ảnh P1
-date: 2015-11-11
+date: 2015-05-15
 categories: [ Math ]
 tags: [ ProjectiveGeometry ]
 toc: false
