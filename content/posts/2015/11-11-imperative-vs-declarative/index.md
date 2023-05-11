@@ -56,10 +56,12 @@ Declarative programming, on the other hands, does not have assignments, and henc
 Translating to code:
 
     isPrime(N) =
-        N > 1 && noDivisor(2, N)
+        N > 1 AND noDivisor(2, N)
     
     noDivisor(from, N) =
-        from >= N OR (N % from != 0 AND noDivisor(from + 1, N))
+        from >= N OR
+        ( N % from > 0 AND
+          noDivisor(from + 1, N) )
 
 Writing declarative code requires a very different thinking. The most challenge of converting imperative code into declarative one is eliminating loops because only loops really need state change. Indeed, without state change, the break conditions of loops will never be met, and loops that aggregate something are not possible.
 
