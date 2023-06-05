@@ -5,15 +5,16 @@ description: Đóng tiền đúng hẹn, hạnh phúc sẽ tới
 date: 2021-10-06
 categories: [ Tumlum ]
 tags: [ Netflix ]
-featuredImage: featured.png
-images: [ featured.png ]
+resources:
+  - name: featured-image
+    src: featured.png
 toc: false
 hiddenFromHomePage: true
 hiddenFromSearch: true
 share:
-    enable: false
+  enable: false
 comment:
-    enable: true
+  enable: true
 ---
 
 ### Thông tin gói đang dùng:
