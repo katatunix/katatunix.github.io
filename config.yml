@@ -11,7 +11,7 @@ params:
   defaultTheme: dark
   dateFormat: January 02, 2006
   title: Nghia Bui
-  images: [ "/lambda.jpg" ]
+  images: [ "/logo.jpg" ]
   description: Welcome to my world - I talk to the wind
   header:
     title:
@@ -19,7 +19,7 @@ params:
   home:
     profile:
       enable: true
-      avatarURL: "/lambda.jpg"
+      avatarURL: "/logo.jpg"
       title: Welcome to my world
       subtitle: I talk to the wind
       typeit: true
