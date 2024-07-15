@@ -86,14 +86,14 @@ $n-\sqrt{n^2-1} = 1 / (n+\sqrt{n^2-1}) > 1 / (n+\sqrt{n^2}) = 1/(2n)$
 
 Vậy `(*)` trở thành:
 
-$e^2 - 2de + 1 > 2(n-100) . 1/(2n) = (n-100)/n$
+$e^2 - 2de + 1 > 2(n-100) \cdot 1/(2n) = (n-100)/n$
 
 **Tóm lại: $d'^2 - d^2 > (n-100)/n$**
 
-Lấy $n=10000$ ta có cứ sau mỗi $10000$ lượt chơi (kể từ lượt thứ $10001$ trở đi) thì bình phương của khoảng cách giữa 2 nhân vật lại tăng thêm ít nhất là hơn $(10000-100)/10000 = 0.99$.
+Lấy $n=10000$ ta có cứ sau mỗi $10000$ lượt chơi (kể từ lượt thứ $10001$ trở đi) thì bình phương của khoảng cách giữa 2 nhân vật lại tăng thêm ít nhất là hơn $(10000-100)/10000 = 0.99$
 
 Như vậy, sau cả thảy $10^9$ lượt chơi, bình phương khoảng cách giữa con thỏ và cô thợ săn sẽ ít nhất là lớn hơn:
 
-$(10^9 - 10000) / 10000  *  0.99 =(10^5-1) * 0.99 = 99999 * 0.99 > 99999 * 0.5 > 44444 > 10000$
+$(10^9 - 10000) / 10000 \cdot 0.99 =(10^5-1) \cdot 0.99 = 99999 \cdot 0.99 > 99999 \cdot 0.5 > 44444 > 10000$
 
 Bình phương khoảng cách lớn hơn $10000$, tức là khoảng cách lớn hơn $100$. Thỏ đã thắng!
