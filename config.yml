@@ -43,10 +43,10 @@ params:
     comment:
       enable: true
       disqus:
-        enable: false
+        enable: true
         shortname: katatunix
       utterances:
-        enable: true
+        enable: false
         repo: katatunix/katatunix.github.io
         issueTerm: pathname
         label: Comment
