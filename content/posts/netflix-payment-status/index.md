@@ -21,6 +21,7 @@ comment:
 
 * Tên gói: `Netflix Premium`
 * Giá: `260,000` VND / month
+* Số người tham gia hiện tại: `3` người.
 * Đóng tiền mỗi người: `85,000` VND / month
 
 {{< admonition tip >}}
