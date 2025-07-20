@@ -61,7 +61,7 @@ params:
       HackerNews: false
       Diaspora: false
       Weibo: false
-      Whatsapp: true
+      Whatsapp: false
     code:
       maxShownLines: 100
     math:
