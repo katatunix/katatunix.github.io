@@ -19,7 +19,7 @@ params:
   home:
     profile:
       enable: true
-      avatarURL: "/avatar.jpg"
+      avatarURL: "/lambda.jpg"
       title: Welcome to my world
       subtitle: I talk to the wind
       typeit: true
