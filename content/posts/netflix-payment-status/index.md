@@ -15,6 +15,7 @@ share:
   enable: false
 comment:
   enable: true
+draft: true
 ---
 
 ### Thông tin gói đang dùng:
