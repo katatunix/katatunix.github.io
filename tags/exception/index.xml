@@ -3,7 +3,7 @@
 <p>Checked-exceptions can help but must be used with care otherwise nearly every function/method in our programs could throw checked-exceptions, and <code>try</code>/<code>catch</code> statements would appear everywhere.</p>]]></description></item><item><title>How do you use Exceptions?</title><link>/posts/2016/07-16-how-do-you-use-exceptions/</link><pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/07-16-how-do-you-use-exceptions/</guid><description><![CDATA[<p>Exceptions are a very common concept in most of languages nowadays. In this article we will discuss why exceptions are needed, checked vs. unchecked exceptions, and why C# doesn&rsquo;t have checked exceptions.</p>
 <h2 id="in-the-old-days-defensive-code-were-a-mess">In the old days, defensive code were a mess</h2>
 <p>Before exceptions were invented, defensive code had been overwhelmed with a lot of error checking and recovery from those errors, for example:</p>
-<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
     <div class="code-header language-c">
         <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
         <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
