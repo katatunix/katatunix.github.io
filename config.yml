@@ -29,7 +29,6 @@ params:
     telegram: nghiaokgood
     email: katatunix@gmail.com
     facebook: katatunix
-    twitter: katatunix
     stackoverflow: 2198705
     linkedin: nghia-bui-02323b56
     rss: true
@@ -54,12 +53,15 @@ params:
         darkTheme: github-dark
     share:
       enable: true
-      Twitter: true
       Facebook: true
       Linkedin: true
-      HackerNews: true
+      X: false
+      Threads: false
       Line: false
+      HackerNews: false
+      Diaspora: false
       Weibo: false
+      Whatsapp: true
     code:
       maxShownLines: 100
     math:
