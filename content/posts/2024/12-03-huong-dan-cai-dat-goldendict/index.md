@@ -4,6 +4,7 @@ date: 2024-12-03
 categories: [ Apps ]
 tags: [ GoldenDict ]
 toc: false
+draft: true
 ---
 
 1. Tải phần mềm GoldenDict:
