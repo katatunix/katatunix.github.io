@@ -1,29 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - Nghia Bui</title><link>/posts/</link><description>All Posts | Nghia Bui</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml"/><item><title>Hướng dẫn cài đặt GoldenDict nhé ạ</title><link>/posts/2024/12-03-huong-dan-cai-dat-goldendict/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2024/12-03-huong-dan-cai-dat-goldendict/</guid><description><![CDATA[<ol>
-<li>Tải phần mềm GoldenDict:
-<ul>
-<li>Bản Windows: <a href="https://drive.google.com/file/d/1RSU72JfEYkAuAuqZWNzUTYW_8p8MBDzI/view?usp=drive_link" target="_blank" rel="noopener noreffer ">https://drive.google.com/file/d/1RSU72JfEYkAuAuqZWNzUTYW_8p8MBDzI/view?usp=drive_link</a></li>
-<li>Bản macOS (Apple Silicon): <a href="https://github.com/xiaoyifang/goldendict-ng/releases/download/v24.09.1-Release.ca9dd133/GoldenDict-ng-24.09.1-Qt6.7.2-macOS-arm64.dmg" target="_blank" rel="noopener noreffer ">https://github.com/xiaoyifang/goldendict-ng/releases/download/v24.09.1-Release.ca9dd133/GoldenDict-ng-24.09.1-Qt6.7.2-macOS-arm64.dmg</a></li>
-</ul>
-</li>
-<li>Sau khi tải xong:
-<ul>
-<li>Đối với Windows: giải nén và chạy file <code>goldendict.exe</code>.</li>
-<li>Đối với macOS: cài đặt như thông thường, rồi chạy app <code>GoldenDict-ng</code> lên.</li>
-</ul>
-</li>
-<li>Tải dữ liệu từ điển (Longman và Lạc Việt): <a href="https://drive.google.com/file/d/1nU50Lhrohi6AP3OK2GLcwoivbMZNwhx-/view?usp=drive_link" target="_blank" rel="noopener noreffer ">https://drive.google.com/file/d/1nU50Lhrohi6AP3OK2GLcwoivbMZNwhx-/view?usp=drive_link</a></li>
-<li>Giải nén file dữ liệu vào một thư mục cố định trên ổ cứng.</li>
-<li>Quay lại GoldenDict:
-<ul>
-<li>Vào menu <code>Edit/Dictionaries</code>.</li>
-<li>Nhấn nút <code>Add</code> để chọn thư mục dữ liệu từ điển.</li>
-<li>Tick vào ô <code>Recursive</code>.</li>
-<li>Nhấn nút <code>Rescan now</code>.</li>
-<li>OK.</li>
-</ul>
-</li>
-<li>Tận hưởng nhé ạ.</li>
-</ol>]]></description></item><item><title>Nôm na về chữ ký điện tử</title><link>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</guid><description><![CDATA[<p>Nhân dịp <a href="https://vietnamnet.vn/nguoi-dan-ha-noi-duoc-cap-chu-ky-so-mien-phi-tren-pho-di-bo-ho-guom-2130229.html" target="_blank" rel="noopener noreffer ">người dân Hà Nội được cấp chữ ký số miễn phí trên phố đi bộ hồ Gươm</a>, cùng tìm hiểu &ndash; hết sức nôm na &ndash; về chữ ký điện tử.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - Nghia Bui</title><link>/posts/</link><description>All Posts | Nghia Bui</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml"/><item><title>Nôm na về chữ ký điện tử</title><link>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</guid><description><![CDATA[<p>Nhân dịp <a href="https://vietnamnet.vn/nguoi-dan-ha-noi-duoc-cap-chu-ky-so-mien-phi-tren-pho-di-bo-ho-guom-2130229.html" target="_blank" rel="noopener noreffer ">người dân Hà Nội được cấp chữ ký số miễn phí trên phố đi bộ hồ Gươm</a>, cùng tìm hiểu &ndash; hết sức nôm na &ndash; về chữ ký điện tử.</p>
 <p><a href="https://en.wikipedia.org/wiki/Digital_signature" target="_blank" rel="noopener noreffer ">Chữ ký điện tử</a> là một ứng dụng của mật mã hoá bất đối xứng <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" target="_blank" rel="noopener noreffer ">asymmetric cryptography</a>.</p>
 <p>Đại khái là, mỗi người sở hữu một cặp private key + public key. Private key phải giữ bí mật. Public key thì công khai thoải mái.</p>]]></description></item><item><title>Netflix payment status</title><link>/posts/netflix-payment-status/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/netflix-payment-status/</guid><description><![CDATA[<h3 id="thông-tin-gói-đang-dùng">Thông tin gói đang dùng:</h3>
 <ul>
@@ -158,4 +133,33 @@
 <p>immediately reminded me about <a href="https://en.wikipedia.org/wiki/Projective_geometry" target="_blank" rel="noopener noreffer ">projective geometry</a> which is one of the most beautiful systems of mathematics.</p>
 <p>So the universe is 4D? I&rsquo;m not sure. But if it was true then we could use the concepts of projective geometry to interpret something interesting.</p>]]></description></item><item><title>Null References: The Billion Dollar Mistake</title><link>/posts/2016/08-03-null-references-the-billion-dollar-mistake/</link><pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/08-03-null-references-the-billion-dollar-mistake/</guid><description><![CDATA[<p><code>Null</code> is clearly evil. We as human tend to forget to check <code>null</code>, and boom&hellip; crash!!! Documentation may help, but again we still forget reading documents. Worse, not all documents are correct and up-to-date 100%. Even if we remember to do every <code>null</code> check, our code would be very messy.</p>
 <p>So what is the solution?</p>
-<p>Checked-exceptions can help but must be used with care otherwise nearly every function/method in our programs could throw checked-exceptions, and <code>try</code>/<code>catch</code> statements would appear everywhere.</p>]]></description></item></channel></rss>
+<p>Checked-exceptions can help but must be used with care otherwise nearly every function/method in our programs could throw checked-exceptions, and <code>try</code>/<code>catch</code> statements would appear everywhere.</p>]]></description></item><item><title>How do you use Exceptions?</title><link>/posts/2016/07-16-how-do-you-use-exceptions/</link><pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/07-16-how-do-you-use-exceptions/</guid><description><![CDATA[<p>Exceptions are a very common concept in most of languages nowadays. In this article we will discuss why exceptions are needed, checked vs. unchecked exceptions, and why C# doesn&rsquo;t have checked exceptions.</p>
+<h2 id="in-the-old-days-defensive-code-were-a-mess">In the old days, defensive code were a mess</h2>
+<p>Before exceptions were invented, defensive code had been overwhelmed with a lot of error checking and recovery from those errors, for example:</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-c">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">handle</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// style #1: error is embedded in the return value
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">errFoo</span> <span class="o">=</span> <span class="nf">foo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">errFoo</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// recovery and may return  
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// style #2: error is assigned to the output parameter
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">errBar</span><span class="p">;</span>  
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">value</span> <span class="o">=</span> <span class="nf">bar</span><span class="p">(...,</span> <span class="o">&amp;</span><span class="n">errBar</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">errBar</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// recovery and may return  
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// do something with value
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// style #3: a separated &amp; global function to get error
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">kaka</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">errKaka</span> <span class="o">=</span> <span class="nf">getKakaError</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">errKata</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// recovery and may return  
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// the rest
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div></div>
+<p>The style #1 is most intuitive but it requires the return value to have a slot for storing the error. If that slot is not available, we can use the style #2 however this style may create a long list of parameters which is often annoying. The style #3 is quite common in OpenGL, OpenAL, EGL with a disadvantage is that we are very likely to forget the error checking.</p>]]></description></item></channel></rss>
