@@ -1,122 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Nghia Bui</title><link>/</link><description>Welcome to my world - I talk to the wind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Nôm na về chữ ký điện tử</title><link>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</guid><description><![CDATA[<p>Nhân dịp <a href="https://vietnamnet.vn/nguoi-dan-ha-noi-duoc-cap-chu-ky-so-mien-phi-tren-pho-di-bo-ho-guom-2130229.html" target="_blank" rel="noopener noreffer ">người dân Hà Nội được cấp chữ ký số miễn phí trên phố đi bộ hồ Gươm</a>, cùng tìm hiểu &ndash; hết sức nôm na &ndash; về chữ ký điện tử.</p>
 <p><a href="https://en.wikipedia.org/wiki/Digital_signature" target="_blank" rel="noopener noreffer ">Chữ ký điện tử</a> là một ứng dụng của mật mã hoá bất đối xứng <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" target="_blank" rel="noopener noreffer ">asymmetric cryptography</a>.</p>
-<p>Đại khái là, mỗi người sở hữu một cặp private key + public key. Private key phải giữ bí mật. Public key thì công khai thoải mái.</p>]]></description></item><item><title>Netflix payment status</title><link>/posts/netflix-payment-status/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/netflix-payment-status/</guid><description><![CDATA[<h3 id="thông-tin-gói-đang-dùng">Thông tin gói đang dùng:</h3>
-<ul>
-<li>Tên gói: <code>Netflix Premium</code></li>
-<li>Giá: <code>260,000</code> VND / month</li>
-<li>Số người tham gia hiện tại: <code>3</code> người.</li>
-<li>Đóng tiền mỗi người: <code>85,000</code> VND / month</li>
-</ul>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Đóng qua MoMo <code>0347270787</code> là cách tiện lợi nhất.</div>
-        </div>
-    </div>
-<h3 id="status">Status:</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: right">Month</th>
-          <th style="text-align: center">Phong</th>
-          <th style="text-align: center">Bồng</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: right">01/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">02/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">03/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">04/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">05/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">06/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">07/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">08/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">09/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">10/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">11/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">12/2024</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">01/2025</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">02/2025</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">03/2025</td>
-          <td style="text-align: center">✅</td>
-          <td style="text-align: center">✅</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">04/2025</td>
-          <td style="text-align: center"></td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: right">05/2025</td>
-          <td style="text-align: center"></td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: right">06/2025</td>
-          <td style="text-align: center"></td>
-          <td style="text-align: center"></td>
-      </tr>
-  </tbody>
-</table>]]></description></item><item><title>"Kiểm soát" Bitcoin?</title><link>/posts/2021/05-19-kiem-soat-bitcoin/</link><pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2021/05-19-kiem-soat-bitcoin/</guid><description><![CDATA[<p>Sau sự kiện elon musk thao túng giá bitcoin, rất nhiều bạn mỉa mai phàn nàn: &ldquo;mục tiêu của bitcoin là để không bị chính phủ kiểm soát, nhưng rốt cục lại bị cá nhân/mập kiểm soát, hố hố&rdquo;.</p>
+<p>Đại khái là, mỗi người sở hữu một cặp private key + public key. Private key phải giữ bí mật. Public key thì công khai thoải mái.</p>]]></description></item><item><title>"Kiểm soát" Bitcoin?</title><link>/posts/2021/05-19-kiem-soat-bitcoin/</link><pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2021/05-19-kiem-soat-bitcoin/</guid><description><![CDATA[<p>Sau sự kiện elon musk thao túng giá bitcoin, rất nhiều bạn mỉa mai phàn nàn: &ldquo;mục tiêu của bitcoin là để không bị chính phủ kiểm soát, nhưng rốt cục lại bị cá nhân/mập kiểm soát, hố hố&rdquo;.</p>
 <p>Cần phải hiểu đúng nghĩa của từ &ldquo;kiểm soát&rdquo; trong ngữ cảnh này. &ldquo;Kiểm soát&rdquo; ở đây không phải là về &ldquo;giá&rdquo;, mà là về (1) <em>phát hành</em> và (2) <em>lưu thông</em>.</p>]]></description></item><item><title>Some thoughts on monads</title><link>/posts/2017/11-30-some-thoughts-on-monads/</link><pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2017/11-30-some-thoughts-on-monads/</guid><description><![CDATA[<p>I know, I know, the world does not need yet another explanation on monads. There have been a lot of related articles you can find on the Internet. Still, most of them are so math-intensive that we as software developers (we aren&rsquo;t good at math) don&rsquo;t want to read. So please give me a try to explain monads to you. I think they are worth knowing about. No math knowledge is required. What I want from you is just a basic knowledge of programming with types and functions.</p>]]></description></item><item><title>Giải bài 3 - IMO 2017</title><link>/posts/2017/11-12-giai-bai-3-imo-2017/</link><pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2017/11-12-giai-bai-3-imo-2017/</guid><description><![CDATA[<p>Một bài cực khó của kì thi Toán quốc tế (IMO) 2017 diễn ra tại Rio de Janeiro vào tháng 7 vừa qua. Theo quan sát của một thanh niên an nam thì chỉ có duy nhất một <a href="https://www.imo-official.org/team_r.aspx?code=RUS&amp;year=2017" target="_blank" rel="noopener noreffer ">thanh niên nga ngố</a> tên là Mikhail Ivanov giải trọn vẹn bài này trong phòng thi. Thanh niên an nam cũng cố giải, nhưng trong một phòng khác.</p>
 <h2 id="đề-bài">Đề bài</h2>
 <p>Một cô thợ săn và một con thỏ tàng hình chơi trò chơi sau trên mặt phẳng. Điểm xuất phát $A_0$ của con thỏ và điểm xuất phát $B_0$ của cô thợ săn trùng nhau. Sau $n-1$ lượt chơi, con thỏ ở điểm $A_{n-1}$ và cô thợ săn ở điểm $B_{n-1}$. Ở lượt chơi thứ $n$, có ba điều lần lượt xảy ra theo thứ tự dưới đây:</p>]]></description></item><item><title>Gradient Boosting</title><link>/posts/2016/12-08-gradient-boosting/</link><pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/12-08-gradient-boosting/</guid><description><![CDATA[<p>Gradient Boosting is a machine learning technique which boosts weak learners to strong ones by using gradient.</p>
@@ -162,4 +46,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// the rest
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div></div>
-<p>The style #1 is most intuitive but it requires the return value to have a slot for storing the error. If that slot is not available, we can use the style #2 however this style may create a long list of parameters which is often annoying. The style #3 is quite common in OpenGL, OpenAL, EGL with a disadvantage is that we are very likely to forget the error checking.</p>]]></description></item></channel></rss>
+<p>The style #1 is most intuitive but it requires the return value to have a slot for storing the error. If that slot is not available, we can use the style #2 however this style may create a long list of parameters which is often annoying. The style #3 is quite common in OpenGL, OpenAL, EGL with a disadvantage is that we are very likely to forget the error checking.</p>]]></description></item><item><title>How to think about MVC, MVP, PM, and MVVM?</title><link>/posts/2016/03-17-how-to-think-about-mvc-mvp-pm-and-mvvm/</link><pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/03-17-how-to-think-about-mvc-mvp-pm-and-mvvm/</guid><description><![CDATA[<p>This article is about my personal explanation of the famous design patterns: Model View Controller (MVC), Model View Presenter (MVP), Presentation Model (PM), and Model View ViewModel (MVVM).</p>
+<p>Let&rsquo;s start with Model.</p>
+<h2 id="model-the-core-of-an-application">Model: the core of an application</h2>
+<p>At the core of an application is a component called Model where <em>business objects</em> and <em>use-case objects</em> live. Normally, the outside world interacts with the Model by sending input to the use-case objects, these objects then manipulate the business ones and finally return output back to the outside world.</p>]]></description></item></channel></rss>
