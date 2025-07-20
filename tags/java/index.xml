@@ -1,3 +1,30 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Java - Tag - Nghia Bui</title><link>/tags/java/</link><description>Java - Tag - Nghia Bui</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 16 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/java/" rel="self" type="application/rss+xml"/><item><title>How do you use Exceptions?</title><link>/posts/2016/07-16-how-do-you-use-exceptions/</link><pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/07-16-how-do-you-use-exceptions/</guid><description>Exceptions are a very common concept in most of languages nowadays. In this article we will discuss why exceptions are needed, checked vs. unchecked exceptions, and why C# doesn&amp;rsquo;t have checked exceptions.
-In the old days, defensive code were a mess Before exceptions were invented, defensive code had been overwhelmed with a lot of error checking and recovery from those errors, for example:
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 void handle() { // style #1: error is embedded in the return value int errFoo = foo(); if (errFoo == -1) { // recovery and may return } // style #2: error is assigned to the output parameter unsigned int errBar; int value = bar(.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Java - Tag - Nghia Bui</title><link>/tags/java/</link><description>Java - Tag - Nghia Bui</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 16 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/java/" rel="self" type="application/rss+xml"/><item><title>How do you use Exceptions?</title><link>/posts/2016/07-16-how-do-you-use-exceptions/</link><pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2016/07-16-how-do-you-use-exceptions/</guid><description><![CDATA[<p>Exceptions are a very common concept in most of languages nowadays. In this article we will discuss why exceptions are needed, checked vs. unchecked exceptions, and why C# doesn&rsquo;t have checked exceptions.</p>
+<h2 id="in-the-old-days-defensive-code-were-a-mess">In the old days, defensive code were a mess</h2>
+<p>Before exceptions were invented, defensive code had been overwhelmed with a lot of error checking and recovery from those errors, for example:</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-c">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">handle</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// style #1: error is embedded in the return value
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">errFoo</span> <span class="o">=</span> <span class="nf">foo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">errFoo</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// recovery and may return  
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// style #2: error is assigned to the output parameter
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">errBar</span><span class="p">;</span>  
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">value</span> <span class="o">=</span> <span class="nf">bar</span><span class="p">(...,</span> <span class="o">&amp;</span><span class="n">errBar</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">errBar</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// recovery and may return  
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// do something with value
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// style #3: a separated &amp; global function to get error
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">kaka</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">errKaka</span> <span class="o">=</span> <span class="nf">getKakaError</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">errKata</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// recovery and may return  
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// the rest
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div></div>
+<p>The style #1 is most intuitive but it requires the return value to have a slot for storing the error. If that slot is not available, we can use the style #2 however this style may create a long list of parameters which is often annoying. The style #3 is quite common in OpenGL, OpenAL, EGL with a disadvantage is that we are very likely to forget the error checking.</p>]]></description></item></channel></rss>

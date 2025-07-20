@@ -1,11 +1,161 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Nghia Bui</title><link>/</link><description>Welcome to my world - I talk to the wind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Hướng dẫn cài đặt GoldenDict nhé ạ</title><link>/posts/2024/12-03-huong-dan-cai-dat-goldendict/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2024/12-03-huong-dan-cai-dat-goldendict/</guid><description>Tải phần mềm GoldenDict: Bản Windows: https://drive.google.com/file/d/1RSU72JfEYkAuAuqZWNzUTYW_8p8MBDzI/view?usp=drive_link Bản macOS (Apple Silicon): https://github.com/xiaoyifang/goldendict-ng/releases/download/v24.09.1-Release.ca9dd133/GoldenDict-ng-24.09.1-Qt6.7.2-macOS-arm64.dmg Sau khi tải xong: Đối với Windows: giải nén và chạy file goldendict.exe. Đối với macOS: cài đặt như thông thường, rồi chạy app GoldenDict-ng lên. Tải dữ liệu từ điển (Longman và Lạc Việt): https://drive.google.com/file/d/1nU50Lhrohi6AP3OK2GLcwoivbMZNwhx-/view?usp=drive_link Giải nén file dữ liệu vào một thư mục cố định trên ổ cứng. Quay lại GoldenDict: Vào menu Edit/Dictionaries. Nhấn nút Add để chọn thư mục dữ liệu từ điển.</description></item><item><title>Nôm na về chữ ký điện tử</title><link>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</guid><description>Nhân dịp người dân Hà Nội được cấp chữ ký số miễn phí trên phố đi bộ hồ Gươm, cùng tìm hiểu &amp;ndash; hết sức nôm na &amp;ndash; về chữ ký điện tử.
-Chữ ký điện tử là một ứng dụng của mật mã hoá bất đối xứng asymmetric cryptography.
-Đại khái là, mỗi người sở hữu một cặp private key + public key. Private key phải giữ bí mật. Public key thì công khai thoải mái.</description></item><item><title>Netflix payment status</title><link>/posts/netflix-payment-status/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/netflix-payment-status/</guid><description>Thông tin gói đang dùng: Tên gói: Netflix Premium Giá: 260,000 VND / month Số người tham gia hiện tại: 3 người. Đóng tiền mỗi người: 85,000 VND / month Tip Đóng qua MoMo 0347270787 là cách tiện lợi nhất. Status: Month Phong Bồng 01/2024 ✅ ✅ 02/2024 ✅ ✅ 03/2024 ✅ ✅ 04/2024 ✅ ✅ 05/2024 ✅ ✅ 06/2024 ✅ ✅ 07/2024 ✅ ✅ 08/2024 ✅ ✅ 09/2024 ✅ ✅ 10/2024 ✅ ✅ 11/2024 ✅ ✅ 12/2024 ✅ ✅ 01/2025 ✅ ✅ 02/2025 ✅ ✅ 03/2025 ✅ ✅ 04/2025 05/2025 06/2025</description></item><item><title>"Kiểm soát" Bitcoin?</title><link>/posts/2021/05-19-kiem-soat-bitcoin/</link><pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2021/05-19-kiem-soat-bitcoin/</guid><description><![CDATA[Sau sự kiện elon musk thao túng giá bitcoin, rất nhiều bạn mỉa mai phàn nàn: &ldquo;mục tiêu của bitcoin là để không bị chính phủ kiểm soát, nhưng rốt cục lại bị cá nhân/mập kiểm soát, hố hố&rdquo;.
-Cần phải hiểu đúng nghĩa của từ &ldquo;kiểm soát&rdquo; trong ngữ cảnh này. &ldquo;Kiểm soát&rdquo; ở đây không phải là về &ldquo;giá&rdquo;, mà là về (1) phát hành và (2) lưu thông.]]></description></item><item><title>Some thoughts on monads</title><link>/posts/2017/11-30-some-thoughts-on-monads/</link><pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2017/11-30-some-thoughts-on-monads/</guid><description>I know, I know, the world does not need yet another explanation on monads. There have been a lot of related articles you can find on the Internet. Still, most of them are so math-intensive that we as software developers (we aren&amp;rsquo;t good at math) don&amp;rsquo;t want to read. So please give me a try to explain monads to you. I think they are worth knowing about. No math knowledge is required.</description></item><item><title>Giải bài 3 - IMO 2017</title><link>/posts/2017/11-12-giai-bai-3-imo-2017/</link><pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2017/11-12-giai-bai-3-imo-2017/</guid><description>Một bài cực khó của kì thi Toán quốc tế (IMO) 2017 diễn ra tại Rio de Janeiro vào tháng 7 vừa qua. Theo quan sát của một thanh niên an nam thì chỉ có duy nhất một thanh niên nga ngố tên là Mikhail Ivanov giải trọn vẹn bài này trong phòng thi. Thanh niên an nam cũng cố giải, nhưng trong một phòng khác.
-Đề bài Một cô thợ săn và một con thỏ tàng hình chơi trò chơi sau trên mặt phẳng.</description></item><item><title>Gradient Boosting</title><link>/posts/2016/12-08-gradient-boosting/</link><pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/12-08-gradient-boosting/</guid><description>Gradient Boosting is a machine learning technique which boosts weak learners to strong ones by using gradient.
-My explanation here: https://www.slideshare.net/katatunix/gradient-boosting</description></item><item><title>Hidden Markov Model</title><link>/posts/2016/11-11-hidden-markov-model/</link><pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/11-11-hidden-markov-model/</guid><description>My simple explanation of the Hidden Markov Model.
-Shared here: https://www.slideshare.net/katatunix/hidden-markov-model-67982915</description></item><item><title>The universe is 4D?</title><link>/posts/2016/08-11-the-universe-is-4d/</link><pubDate>Thu, 11 Aug 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/08-11-the-universe-is-4d/</guid><description>This statement:
-Quote Little did they know that the universe is four dimensional and even the orbit of planets is an illusion produced when straight motion in a four dimensional space is projected into three dimensions (or something). immediately reminded me about projective geometry which is one of the most beautiful systems of mathematics.
-So the universe is 4D? I&amp;rsquo;m not sure. But if it was true then we could use the concepts of projective geometry to interpret something interesting.</description></item><item><title>Null References: The Billion Dollar Mistake</title><link>/posts/2016/08-03-null-references-the-billion-dollar-mistake/</link><pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2016/08-03-null-references-the-billion-dollar-mistake/</guid><description>Null is clearly evil. We as human tend to forget to check null, and boom&amp;hellip; crash!!! Documentation may help, but again we still forget reading documents. Worse, not all documents are correct and up-to-date 100%. Even if we remember to do every null check, our code would be very messy.
-So what is the solution?
-Checked-exceptions can help but must be used with care otherwise nearly every function/method in our programs could throw checked-exceptions, and try/catch statements would appear everywhere.</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Nghia Bui</title><link>/</link><description>Welcome to my world - I talk to the wind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Hướng dẫn cài đặt GoldenDict nhé ạ</title><link>/posts/2024/12-03-huong-dan-cai-dat-goldendict/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2024/12-03-huong-dan-cai-dat-goldendict/</guid><description><![CDATA[<ol>
+<li>Tải phần mềm GoldenDict:
+<ul>
+<li>Bản Windows: <a href="https://drive.google.com/file/d/1RSU72JfEYkAuAuqZWNzUTYW_8p8MBDzI/view?usp=drive_link" target="_blank" rel="noopener noreffer ">https://drive.google.com/file/d/1RSU72JfEYkAuAuqZWNzUTYW_8p8MBDzI/view?usp=drive_link</a></li>
+<li>Bản macOS (Apple Silicon): <a href="https://github.com/xiaoyifang/goldendict-ng/releases/download/v24.09.1-Release.ca9dd133/GoldenDict-ng-24.09.1-Qt6.7.2-macOS-arm64.dmg" target="_blank" rel="noopener noreffer ">https://github.com/xiaoyifang/goldendict-ng/releases/download/v24.09.1-Release.ca9dd133/GoldenDict-ng-24.09.1-Qt6.7.2-macOS-arm64.dmg</a></li>
+</ul>
+</li>
+<li>Sau khi tải xong:
+<ul>
+<li>Đối với Windows: giải nén và chạy file <code>goldendict.exe</code>.</li>
+<li>Đối với macOS: cài đặt như thông thường, rồi chạy app <code>GoldenDict-ng</code> lên.</li>
+</ul>
+</li>
+<li>Tải dữ liệu từ điển (Longman và Lạc Việt): <a href="https://drive.google.com/file/d/1nU50Lhrohi6AP3OK2GLcwoivbMZNwhx-/view?usp=drive_link" target="_blank" rel="noopener noreffer ">https://drive.google.com/file/d/1nU50Lhrohi6AP3OK2GLcwoivbMZNwhx-/view?usp=drive_link</a></li>
+<li>Giải nén file dữ liệu vào một thư mục cố định trên ổ cứng.</li>
+<li>Quay lại GoldenDict:
+<ul>
+<li>Vào menu <code>Edit/Dictionaries</code>.</li>
+<li>Nhấn nút <code>Add</code> để chọn thư mục dữ liệu từ điển.</li>
+<li>Tick vào ô <code>Recursive</code>.</li>
+<li>Nhấn nút <code>Rescan now</code>.</li>
+<li>OK.</li>
+</ul>
+</li>
+<li>Tận hưởng nhé ạ.</li>
+</ol>]]></description></item><item><title>Nôm na về chữ ký điện tử</title><link>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2023/04-14-nom-na-ve-chu-ky-dien-tu/</guid><description><![CDATA[<p>Nhân dịp <a href="https://vietnamnet.vn/nguoi-dan-ha-noi-duoc-cap-chu-ky-so-mien-phi-tren-pho-di-bo-ho-guom-2130229.html" target="_blank" rel="noopener noreffer ">người dân Hà Nội được cấp chữ ký số miễn phí trên phố đi bộ hồ Gươm</a>, cùng tìm hiểu &ndash; hết sức nôm na &ndash; về chữ ký điện tử.</p>
+<p><a href="https://en.wikipedia.org/wiki/Digital_signature" target="_blank" rel="noopener noreffer ">Chữ ký điện tử</a> là một ứng dụng của mật mã hoá bất đối xứng <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" target="_blank" rel="noopener noreffer ">asymmetric cryptography</a>.</p>
+<p>Đại khái là, mỗi người sở hữu một cặp private key + public key. Private key phải giữ bí mật. Public key thì công khai thoải mái.</p>]]></description></item><item><title>Netflix payment status</title><link>/posts/netflix-payment-status/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/netflix-payment-status/</guid><description><![CDATA[<h3 id="thông-tin-gói-đang-dùng">Thông tin gói đang dùng:</h3>
+<ul>
+<li>Tên gói: <code>Netflix Premium</code></li>
+<li>Giá: <code>260,000</code> VND / month</li>
+<li>Số người tham gia hiện tại: <code>3</code> người.</li>
+<li>Đóng tiền mỗi người: <code>85,000</code> VND / month</li>
+</ul>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Đóng qua MoMo <code>0347270787</code> là cách tiện lợi nhất.</div>
+        </div>
+    </div>
+<h3 id="status">Status:</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: right">Month</th>
+          <th style="text-align: center">Phong</th>
+          <th style="text-align: center">Bồng</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: right">01/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">02/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">03/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">04/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">05/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">06/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">07/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">08/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">09/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">10/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">11/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">12/2024</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">01/2025</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">02/2025</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">03/2025</td>
+          <td style="text-align: center">✅</td>
+          <td style="text-align: center">✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">04/2025</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: right">05/2025</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td style="text-align: right">06/2025</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: center"></td>
+      </tr>
+  </tbody>
+</table>]]></description></item><item><title>"Kiểm soát" Bitcoin?</title><link>/posts/2021/05-19-kiem-soat-bitcoin/</link><pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2021/05-19-kiem-soat-bitcoin/</guid><description><![CDATA[<p>Sau sự kiện elon musk thao túng giá bitcoin, rất nhiều bạn mỉa mai phàn nàn: &ldquo;mục tiêu của bitcoin là để không bị chính phủ kiểm soát, nhưng rốt cục lại bị cá nhân/mập kiểm soát, hố hố&rdquo;.</p>
+<p>Cần phải hiểu đúng nghĩa của từ &ldquo;kiểm soát&rdquo; trong ngữ cảnh này. &ldquo;Kiểm soát&rdquo; ở đây không phải là về &ldquo;giá&rdquo;, mà là về (1) <em>phát hành</em> và (2) <em>lưu thông</em>.</p>]]></description></item><item><title>Some thoughts on monads</title><link>/posts/2017/11-30-some-thoughts-on-monads/</link><pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2017/11-30-some-thoughts-on-monads/</guid><description><![CDATA[<p>I know, I know, the world does not need yet another explanation on monads. There have been a lot of related articles you can find on the Internet. Still, most of them are so math-intensive that we as software developers (we aren&rsquo;t good at math) don&rsquo;t want to read. So please give me a try to explain monads to you. I think they are worth knowing about. No math knowledge is required. What I want from you is just a basic knowledge of programming with types and functions.</p>]]></description></item><item><title>Giải bài 3 - IMO 2017</title><link>/posts/2017/11-12-giai-bai-3-imo-2017/</link><pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2017/11-12-giai-bai-3-imo-2017/</guid><description><![CDATA[<p>Một bài cực khó của kì thi Toán quốc tế (IMO) 2017 diễn ra tại Rio de Janeiro vào tháng 7 vừa qua. Theo quan sát của một thanh niên an nam thì chỉ có duy nhất một <a href="https://www.imo-official.org/team_r.aspx?code=RUS&amp;year=2017" target="_blank" rel="noopener noreffer ">thanh niên nga ngố</a> tên là Mikhail Ivanov giải trọn vẹn bài này trong phòng thi. Thanh niên an nam cũng cố giải, nhưng trong một phòng khác.</p>
+<h2 id="đề-bài">Đề bài</h2>
+<p>Một cô thợ săn và một con thỏ tàng hình chơi trò chơi sau trên mặt phẳng. Điểm xuất phát $A_0$ của con thỏ và điểm xuất phát $B_0$ của cô thợ săn trùng nhau. Sau $n-1$ lượt chơi, con thỏ ở điểm $A_{n-1}$ và cô thợ săn ở điểm $B_{n-1}$. Ở lượt chơi thứ $n$, có ba điều lần lượt xảy ra theo thứ tự dưới đây:</p>]]></description></item><item><title>Gradient Boosting</title><link>/posts/2016/12-08-gradient-boosting/</link><pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2016/12-08-gradient-boosting/</guid><description><![CDATA[<p>Gradient Boosting is a machine learning technique which boosts weak learners to strong ones by using gradient.</p>
+<p>My explanation here: <a href="https://www.slideshare.net/katatunix/gradient-boosting" target="_blank" rel="noopener noreffer ">https://www.slideshare.net/katatunix/gradient-boosting</a></p>]]></description></item><item><title>Hidden Markov Model</title><link>/posts/2016/11-11-hidden-markov-model/</link><pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2016/11-11-hidden-markov-model/</guid><description><![CDATA[<p>My simple explanation of the <a href="https://en.wikipedia.org/wiki/Hidden_Markov_model" target="_blank" rel="noopener noreffer ">Hidden Markov Model</a>.</p>
+<p>Shared here: <a href="https://www.slideshare.net/katatunix/hidden-markov-model-67982915" target="_blank" rel="noopener noreffer ">https://www.slideshare.net/katatunix/hidden-markov-model-67982915</a></p>]]></description></item><item><title>The universe is 4D?</title><link>/posts/2016/08-11-the-universe-is-4d/</link><pubDate>Thu, 11 Aug 2016 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2016/08-11-the-universe-is-4d/</guid><description><![CDATA[<p><a href="http://withouttheloop.com/articles/2016-08-09-mathematics/" target="_blank" rel="noopener noreffer ">This statement</a>:</p>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw" aria-hidden="true"></i>Quote<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Little did they know that the universe is four dimensional and even the orbit of planets is an illusion produced when straight motion in a four dimensional space is projected into three dimensions (or something).</div>
+        </div>
+    </div>
+<p>immediately reminded me about <a href="https://en.wikipedia.org/wiki/Projective_geometry" target="_blank" rel="noopener noreffer ">projective geometry</a> which is one of the most beautiful systems of mathematics.</p>
+<p>So the universe is 4D? I&rsquo;m not sure. But if it was true then we could use the concepts of projective geometry to interpret something interesting.</p>]]></description></item><item><title>Null References: The Billion Dollar Mistake</title><link>/posts/2016/08-03-null-references-the-billion-dollar-mistake/</link><pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate><author>xxxx</author><guid>/posts/2016/08-03-null-references-the-billion-dollar-mistake/</guid><description><![CDATA[<p><code>Null</code> is clearly evil. We as human tend to forget to check <code>null</code>, and boom&hellip; crash!!! Documentation may help, but again we still forget reading documents. Worse, not all documents are correct and up-to-date 100%. Even if we remember to do every <code>null</code> check, our code would be very messy.</p>
+<p>So what is the solution?</p>
+<p>Checked-exceptions can help but must be used with care otherwise nearly every function/method in our programs could throw checked-exceptions, and <code>try</code>/<code>catch</code> statements would appear everywhere.</p>]]></description></item></channel></rss>
