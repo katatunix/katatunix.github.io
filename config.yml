@@ -1,8 +1,6 @@
 baseURL: https://katatunix.github.io
 languageCode: en-us
 title: Nghia Bui
-author:
-  name: Nghia
 
 theme: LoveIt
 enableRobotsTXT: true
@@ -11,6 +9,8 @@ params:
   defaultTheme: dark
   dateFormat: January 02, 2006
   title: Nghia Bui
+  author:
+    name: Nghia
   images: [ "/avatar.jpg" ]
   description: Welcome to my world - I talk to the wind
   header:
