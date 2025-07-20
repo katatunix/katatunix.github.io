@@ -20,7 +20,7 @@ Frankly, object persistence is hard because we need to pursuit both of the two p
 
 Now we will discuss some typical patterns when dealing with object persistence, and see how they can satisfy only one of the two principles above.
 
-# Table Data Gateway (aka Data Access Objects — DAO)
+## Table Data Gateway (aka Data Access Objects — DAO)
 
 This pattern is simple and can be described in the diagram below:
 
@@ -30,7 +30,7 @@ Clearly, Table Data Gateway breaks the principle #1. The method `Insert` needs t
 
 Another problem `(*)` of this pattern is that sometimes we don't know how much of data should be loaded for an object `Order`. So we usually load all. What if the object has a relationship with other objects? For example, the object `Order` may keep a list of products that belong to this order. Should we load these products too? What if these products also have their own relationships? And so on.
 
-# Proxy
+## Proxy
 
 ![Proxy](proxy.png "Proxy")
 
@@ -38,15 +38,15 @@ This pattern still breaks the principle #1 as the `ProductDBProxy` needs to cons
 
 However, the problem `(*)` can be solved. Though a proxy is basically a gateway, but unlike the gateway, which doesn't know how much data should be loaded, the proxy does, simply because in the context of one of its methods, the proxy knows which data are needed.
 
-# Database-speaking Object
+## Database-speaking Object
 
 ![Database-speaking Object](db-speaking.jpg "Database-speaking Object")
 
 The pattern accepts breaking the principle #2. Each object holds a reference to a facade to the database and delegate all persistence stuff to this facade. The pattern solves the problem `(*)` nicely since each object by itself can actively load/save its data. I consider Memento pattern is similar to this pattern.
 
-# What should we choose?
+## What should we choose?
 
-I always prefer the Table Data Gateway pattern because of its simplicity. Sometimes exposing internal states is not too bad. As we know, exposing internal states is evil because those states are implementation details, thus they are unstable and do cause annoyance to their clients. However, in this case, there is only one client consuming the extra getter/setter/constructor methods — the gateway. Hence the annoyance is mitigated.
+I always prefer the Table Data Gateway pattern because of its simplicity. Sometimes exposing internal states is not too bad. As we know, exposing internal states is evil because those states are implementation details, thus they are unstable and do cause annoyance to their clients. However, in this case, there is only one client consuming the extra getter/setter/constructor methods -- the gateway. Hence the annoyance is mitigated.
 
 To cope with the problem `(*)`, the gateway may create multiple versions of the objects with various level of filled data, depending on the (fixed) demands of its clients. But when those demands are not known, the Proxy pattern can be applied. Care should be taken as this pattern is very complex.
 
