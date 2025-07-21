@@ -4,9 +4,6 @@ date: 2015-05-15
 categories: [ Math ]
 tags: [ ProjectiveGeometry ]
 toc: false
-resources:
-  - name: featured-image
-    src: main.webp
 ---
 
 Hình học xạ ảnh ([projective geometry](http://en.wikipedia.org/wiki/Projective_geometry)) ám ảnh tôi trong suốt một thời gian dài. Đó là vào khoảng cuối năm 2011, khi mà OpenGL ES 2.0 trở nên thịnh hành trên những game cho thiết bị di động. Hệ điều hành iOS của Apple bắt đầu hỗ trợ OpenGL ES 2.0 từ iOS 5.0, còn phía Android là bắt đầu từ Android 2.2 (Froyo). Vì tính chất công việc, tôi bắt buộc phải cập nhật kiến thức để theo kịp công nghệ.

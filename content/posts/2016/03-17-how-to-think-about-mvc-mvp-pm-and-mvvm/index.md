@@ -4,9 +4,6 @@ date: 2016-03-17
 categories: [ Programming ]
 tags: [ OOP, DesignPattern, MVC, MVP, PM, MVVM ]
 toc: true
-resources:
-  - name: featured-image
-    src: main.jpg
 ---
 
 This article is about my personal explanation of the famous design patterns: Model View Controller (MVC), Model View Presenter (MVP), Presentation Model (PM), and Model View ViewModel (MVVM).

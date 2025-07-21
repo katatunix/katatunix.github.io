@@ -6,16 +6,12 @@ date: 2016-08-11
 categories: [ Math ]
 tags: [ Universe, ProjectiveGeometry, 4DSpace ]
 toc: false
-resources:
-  - name: featured-image
-    src: featured.webp
 ---
 
-[This statement](http://withouttheloop.com/articles/2016-08-09-mathematics/):
+This statement:
 
-{{< admonition quote >}}
-Little did they know that the universe is four dimensional and even the orbit of planets is an illusion produced when straight motion in a four dimensional space is projected into three dimensions (or something).
-{{< /admonition >}}
+>Little did they know that the universe is four dimensional and even the orbit of planets is an illusion produced when straight motion in a four dimensional space is projected into three dimensions (or something).  
+[--- Source: withouttheloop.com](http://withouttheloop.com/articles/2016-08-09-mathematics/)
 
 immediately reminded me about [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry) which is one of the most beautiful systems of mathematics.
 

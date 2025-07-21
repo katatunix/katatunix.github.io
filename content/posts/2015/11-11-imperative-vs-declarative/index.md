@@ -4,9 +4,6 @@ date: 2015-11-11
 categories: [ Programming ]
 tags: [ Imperative, Declarative ]
 toc: false
-resources:
-  - name: featured-image
-    src: main.jpg
 ---
 
 Wikipedia defines imperative and declarative programming as:

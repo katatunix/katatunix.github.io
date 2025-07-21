@@ -5,9 +5,6 @@ description: My personal explanation and justification for ECS
 date: 2016-01-26
 categories: [ Programming ]
 tags: [ OOP, ProceduralProgramming, ECS, GameDevelopment ]
-resources:
-  - name: featured-image
-    src: featured.png
 ---
 
 In recent years, Entity-Component System (ECS) has been recognized as the most notable architecture for game development. There are many good articles about the architecture that can be found on the Internet, some of them are:
@@ -30,7 +27,7 @@ The rest of this article is my personal explanation and justification for ECS.
 
 We start with a situation:
 
-*Decomposing a game world which contains multiple game entities into parts. Each part can be either a data structure, or a function, or an object.*
+>Decomposing a game world which contains multiple game entities into parts. Each part can be either a data structure, or a function, or an object.
 
 Immediately, because we are object thinkers, we would consider each game entity as an object containing both data and functions. However now we are facing some problems. In the following section, we will discuss these problems and propose solutions in order to reach the ECS architecture.
 
@@ -94,14 +91,12 @@ Very often, in game development, we have behaviors that cannot belong to any ent
 
 Both the last two problems have one root cause: we are respecting encapsulation too much.
 
-{{< admonition quote >}}
-In programming languages, encapsulation is used to refer to one of two related but distinct notions, and sometimes to the combination thereof:
-
-1. A language mechanism for restricting access to some of the object's components.
-2. A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.
-
---[Wikipedia](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-{{< /admonition >}}
+> In programming languages, encapsulation is used to refer to one of two related but distinct notions, and sometimes to the combination thereof:
+>
+> 1. A language mechanism for restricting access to some of the object's components.
+> 2. A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.  
+>
+> --- [Wikipedia](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
 
 In problem 3, because each component has it own behaviors bundled with its internal data, when these behaviors involve external data, they must talk with other components through *getters* and *setters*.
 
@@ -117,15 +112,15 @@ So, if we accept breaking encapsulation with a lot of getters and setters, why d
 
 We have achieved ECS architecture. But you may say:
 
-*This is Procedural Paradigm (PP)! It's bad!*
+>This is Procedural Paradigm (PP)! It's bad!
 
 Yes, but which are bad things about PP?
 
-*Well, PP tends to create more dependencies between parts because PP has two kinds of dependencies: functions depend on data, and functions depend on functions. Remember, OOP, with encapsulation, has only one kind -- the last one.*
+>Well, PP tends to create more dependencies between parts because PP has two kinds of dependencies: functions depend on data, and functions depend on functions. Remember, OOP, with encapsulation, has only one kind -- the last one.
 
 Don't worry! In ECS, systems don't depend systems.
 
-*Hmm, but, PP is terrible because in reality data structures are usually changed, and this leads to changes of all dependent functions.*
+>Hmm, but, PP is terrible because in reality data structures are usually changed, and this leads to changes of all dependent functions.
 
 Don't worry! In an ECS architecture, because of the clear organization, when a component structure is changed, we know that it will lead to changes in the systems only, and it is not too difficult to find out and fix those changes in the related systems. One could argue that in game development, data structures are more stable than functions.
 

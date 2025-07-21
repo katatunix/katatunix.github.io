@@ -3,9 +3,6 @@ title: Why object persistence is hard?
 date: 2016-02-28
 categories: [ Programming ]
 tags: [ OOP, DesignPattern, Database ]
-resources:
-  - name: featured-image
-    src: featured.jpg
 ---
 
 Object persistence -- for example, saving/loading objects to/from a database -- is easy, especially when using an ORM framework. It is easy because it breaks principles of OO design.

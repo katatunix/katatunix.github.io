@@ -5,24 +5,20 @@ lastmod: 2023-05-07
 categories: [ Programming ]
 tags: [ Algorithm ]
 toc: false
-resources:
-  - name: featured-image
-    src: main.jpg
 ---
 
 Các bài toán về thứ tự từ điển thì có cách giải thông thường là: viết ra giấy vài trường hợp, để ý phân tích, mò ra quy luật, từ đó có phương án implement tốt nhất.
 
 Xét ví dụ bài toán phát biểu như sau:
 
-> Cho số nguyên dương `n`:
+> Cho số nguyên dương $n$:
 >
-> 1) Với dãy `a` là một hoán vị các số nguyên từ `1` đến `n`, hãy tính thứ tự từ điển của hoán vị này.
+> 1. Với dãy $a$ là một hoán vị các số nguyên từ $1$ đến $n$, hãy tính thứ tự từ điển của hoán vị này.
+> 2. Ngược lại, cho số tự nhiên $k$ bé hơn $n!$, hãy tìm dãy $a$ là hoán vị có số thứ tự $k$.
 >
-> 2) Ngược lại, cho số tự nhiên `k` bé hơn `n!`, hãy tìm dãy `a` là hoán vị có số thứ tự `k`.
->
-> Lưu ý là thứ tự bắt đầu tính từ `0`.
+> Lưu ý là thứ tự bắt đầu tính từ $0$.
 
-Trước hết là câu _1_, giải thích qua ví dụ thì dễ dàng hơn, chẳng hạn với `n = 5` và dãy `a = [ 4, 5, 3, 1, 2 ]`. Tư tưởng là đi đếm xem có bao nhiêu hoán vị bé hơn `a`. Những hoán vị bé hơn `a` dễ thấy nhất có dạng:
+Trước hết là câu #1, giải thích qua ví dụ thì dễ dàng hơn, chẳng hạn với `n = 5` và dãy `a = [ 4, 5, 3, 1, 2 ]`. Tư tưởng là đi đếm xem có bao nhiêu hoán vị bé hơn `a`. Những hoán vị bé hơn `a` dễ thấy nhất có dạng:
 
     [ 1, x, x, x, x ]
     [ 2, x, x, x, x ]
@@ -38,7 +34,7 @@ Bây giờ xét đến dạng `[ 4, x, x, x, x ]`, bài toán có vẻ được 
 
 Nếu không quan niệm `5` là `4` ta sẽ vô tình xét thêm dạng `[ 4, x, x, x ]` dẫn đến kết quả sai. Để biết phải quan niệm số `5` là số mấy, đơn giản đếm xem trong dãy `[ 5, 3, 1, 2 ]` có bao nhiêu số bé hơn `5`.
 
-Câu _2_ suy ngược lại từ câu _1_, vẫn lấy ví dụ `n = 5`, nhận xét rằng các hoán vị sẽ được sắp theo kiểu:
+Câu #2 suy ngược lại từ câu _1_, vẫn lấy ví dụ `n = 5`, nhận xét rằng các hoán vị sẽ được sắp theo kiểu:
 
     4! các hoán vị dạng [ 1, x, x, x, x ]
     4! các hoán vị dạng [ 2, x, x, x, x ]

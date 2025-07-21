@@ -4,9 +4,6 @@ date: 2016-07-16
 categories: [ Programming ]
 tags: [ Exception, Java, CSharp ]
 toc: true
-resources:
-  - name: featured-image
-    src: main.jpg
 ---
 
 Exceptions are a very common concept in most of languages nowadays. In this article we will discuss why exceptions are needed, checked vs. unchecked exceptions, and why C# doesn't have checked exceptions.
