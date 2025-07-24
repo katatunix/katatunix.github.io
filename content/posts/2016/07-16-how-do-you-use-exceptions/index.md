@@ -8,6 +8,8 @@ toc: true
 
 Exceptions are a very common concept in most of languages nowadays. In this article we will discuss why exceptions are needed, checked vs. unchecked exceptions, and why C# doesn't have checked exceptions.
 
+<!--more-->
+
 ## In the old days, defensive code were a mess
 
 Before exceptions were invented, defensive code had been overwhelmed with a lot of error checking and recovery from those errors, for example:

@@ -8,6 +8,8 @@ toc: false
 
 Have you ever hesitated between these two implementation of the Factory Pattern:
 
+<!--more-->
+
 Factory #1
 
 ```java

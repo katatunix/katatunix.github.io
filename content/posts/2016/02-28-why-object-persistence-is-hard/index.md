@@ -7,6 +7,8 @@ tags: [ OOP, DesignPattern, Database ]
 
 Object persistence -- for example, saving/loading objects to/from a database -- is easy, especially when using an ORM framework. It is easy because it breaks principles of OO design.
 
+<!--more-->
+
 >When objects are used as data structures it is a design smell; and it always has been. When tools like Hibernate call themselves object-relational mappers, they are incorrect. ORMs don't map relational data to objects; they map relational data to data structures. Those data structures are not objects.  
 --- Uncle Bob in [OO vs FP](http://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html)
 

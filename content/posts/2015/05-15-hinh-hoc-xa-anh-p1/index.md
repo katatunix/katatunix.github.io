@@ -3,7 +3,6 @@ title: Hình học xạ ảnh P1
 date: 2015-05-15
 categories: [ Math ]
 tags: [ ProjectiveGeometry ]
-toc: false
 ---
 
 Hình học xạ ảnh ([projective geometry](http://en.wikipedia.org/wiki/Projective_geometry)) ám ảnh tôi trong suốt một thời gian dài. Đó là vào khoảng cuối năm 2011, khi mà OpenGL ES 2.0 trở nên thịnh hành trên những game cho thiết bị di động. Hệ điều hành iOS của Apple bắt đầu hỗ trợ OpenGL ES 2.0 từ iOS 5.0, còn phía Android là bắt đầu từ Android 2.2 (Froyo). Vì tính chất công việc, tôi bắt buộc phải cập nhật kiến thức để theo kịp công nghệ.
@@ -22,7 +21,7 @@ Lời giải thích này ngầm chấp nhận `w` là hiển nhiên. Nhưng th�
 
 Để có thể thỏa mãn những nỗi niềm trên, chúng ta cần phải tìm hiểu projective geometry.
 
-### Đôi nét về lịch sử
+## Đôi nét về lịch sử
 
 ![](albrecht_durer_man_drawing_a_lute.png "Dürer is drawing a lute")
 
@@ -36,7 +35,7 @@ Quy luật này được trình bày trong bài luận [Della Pictura](http://en
 
 Những thế kỷ sau đó, các nhà toán học bắt tay vào nghiên cứu và xây dựng projective geometry một cách có hệ thống hơn. Đó là [Desargues](http://en.wikipedia.org/wiki/Girard_Desargues) (1591-1661), người đầu tiên giới thiệu khái niệm _điểm và đường thẳng ở vô tận_. Tiếp nối là công lao của các nhà toán học như Pascal, Carnot, Monge... đã hoàn thiện một hệ thống nền tảng vững chắc cho projective geometry.
 
-### Hình học xạ ảnh là gì?
+## Hình học xạ ảnh là gì?
 
 Trước hết chúng ta sẽ bàn về mặt phẳng xạ ảnh (projective plane).
 
@@ -46,7 +45,7 @@ Bạn đọc tinh ý sẽ nhận ra mặt phẳng xạ ảnh là mặt phẳng E
 
 Cũng bằng trực giác, ta nhận ra những điểm vô tận này sẽ cùng nằm trên một đường thẳng, gọi là đường thẳng ở vô tận, bởi vì ảnh của chúng trên bức tranh cũng nằm trên một đường thẳng: horizon line. Có vẻ như sự thẳng hàng được bảo toàn? Chúng ta sẽ xem xét tính chất cực kỳ quan trọng này ở phần sau, khi nói về projective transformation.
 
-### Hệ thống tiên đề
+## Hệ thống tiên đề
 
 Với sự có mặt của điểm và đường thẳng ở vô tận, hai tiên đề căn bản của projective geometry được phát biểu rất tao nhã như sau:
 

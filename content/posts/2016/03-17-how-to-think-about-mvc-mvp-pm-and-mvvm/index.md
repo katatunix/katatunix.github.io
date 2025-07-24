@@ -8,6 +8,8 @@ toc: true
 
 This article is about my personal explanation of the famous design patterns: Model View Controller (MVC), Model View Presenter (MVP), Presentation Model (PM), and Model View ViewModel (MVVM).
 
+<!--more-->
+
 Let's start with Model.
 
 ## Model: the core of an application

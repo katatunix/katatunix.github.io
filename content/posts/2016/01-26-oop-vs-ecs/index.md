@@ -9,6 +9,8 @@ tags: [ OOP, ProceduralProgramming, ECS, GameDevelopment ]
 
 In recent years, Entity-Component System (ECS) has been recognized as the most notable architecture for game development. There are many good articles about the architecture that can be found on the Internet, some of them are:
 
+<!--more-->
+
 * [Entity Systems are the future of MMOG development](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/)
 * [What is an entity system framework for game development?](http://www.richardlord.net/blog/what-is-an-entity-framework)
 * [Why use an entity system framework for game development?](http://www.richardlord.net/blog/why-use-an-entity-framework)

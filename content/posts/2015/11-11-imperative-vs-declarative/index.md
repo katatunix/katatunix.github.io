@@ -8,6 +8,8 @@ toc: false
 
 Wikipedia defines imperative and declarative programming as:
 
+<!--more-->
+
 > [imperative programming](https://en.wikipedia.org/wiki/Imperative_programming) is a style that uses statements that change a program’s state... focuses on describing HOW a program operates.
 >
 > [declarative programming](https://en.wikipedia.org/wiki/Declarative_programming) is a style that expresses the logic of a computation without describing its control flow... focuses on describing WHAT the program should accomplish in terms of the problem domain.

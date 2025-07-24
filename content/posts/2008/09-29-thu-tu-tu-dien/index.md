@@ -9,6 +9,8 @@ toc: false
 
 Các bài toán về thứ tự từ điển thì có cách giải thông thường là: viết ra giấy vài trường hợp, để ý phân tích, mò ra quy luật, từ đó có phương án implement tốt nhất.
 
+<!--more-->
+
 Xét ví dụ bài toán phát biểu như sau:
 
 > Cho số nguyên dương $n$:

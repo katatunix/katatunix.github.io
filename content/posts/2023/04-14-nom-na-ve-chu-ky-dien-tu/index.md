@@ -10,6 +10,8 @@ toc: false
 
 Nhân dịp [người dân Hà Nội được cấp chữ ký số miễn phí trên phố đi bộ hồ Gươm](https://vietnamnet.vn/nguoi-dan-ha-noi-duoc-cap-chu-ky-so-mien-phi-tren-pho-di-bo-ho-guom-2130229.html), cùng tìm hiểu -- hết sức nôm na -- về chữ ký điện tử.
 
+<!--more-->
+
 [Chữ ký điện tử](https://en.wikipedia.org/wiki/Digital_signature) là một ứng dụng của mật mã hoá bất đối xứng [asymmetric cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
 Đại khái là, mỗi người sở hữu một cặp private key + public key. Private key phải giữ bí mật. Public key thì công khai thoải mái.

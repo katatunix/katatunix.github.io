@@ -10,6 +10,8 @@ toc: false
 
 Sau sự kiện elon musk thao túng giá bitcoin, rất nhiều bạn mỉa mai phàn nàn: "mục tiêu của bitcoin là để không bị chính phủ kiểm soát, nhưng rốt cục lại bị cá nhân/mập kiểm soát, hố hố".
 
+<!--more-->
+
 Cần phải hiểu đúng nghĩa của từ "kiểm soát" trong ngữ cảnh này. "Kiểm soát" ở đây không phải là về "giá", mà là về (1) *phát hành* và (2) *lưu thông*.
 
 ## Phát hành (issue)

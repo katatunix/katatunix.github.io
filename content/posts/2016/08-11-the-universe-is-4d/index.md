@@ -10,6 +10,8 @@ toc: false
 
 This statement:
 
+<!--more-->
+
 >Little did they know that the universe is four dimensional and even the orbit of planets is an illusion produced when straight motion in a four dimensional space is projected into three dimensions (or something).  
 [--- Source: withouttheloop.com](http://withouttheloop.com/articles/2016-08-09-mathematics/)
 
