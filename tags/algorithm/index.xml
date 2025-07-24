@@ -1,9 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Algorithm - Tag - Nghia Bui</title><link>/tags/algorithm/</link><description>Algorithm - Tag - Nghia Bui</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 29 Sep 2008 00:00:00 +0000</lastBuildDate><atom:link href="/tags/algorithm/" rel="self" type="application/rss+xml"/><item><title>Thứ tự từ điển</title><link>/posts/2008/09-29-thu-tu-tu-dien/</link><pubDate>Mon, 29 Sep 2008 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2008/09-29-thu-tu-tu-dien/</guid><description><![CDATA[<p>Các bài toán về thứ tự từ điển thì có cách giải thông thường là: viết ra giấy vài trường hợp, để ý phân tích, mò ra quy luật, từ đó có phương án implement tốt nhất.</p>
-<p>Xét ví dụ bài toán phát biểu như sau:</p>
-<blockquote>
-<p>Cho số nguyên dương $n$:</p>
-<ol>
-<li>Với dãy $a$ là một hoán vị các số nguyên từ $1$ đến $n$, hãy tính thứ tự từ điển của hoán vị này.</li>
-<li>Ngược lại, cho số tự nhiên $k$ bé hơn $n!$, hãy tìm dãy $a$ là hoán vị có số thứ tự $k$.</li>
-</ol>
-<p>Lưu ý là thứ tự bắt đầu tính từ $0$.</p>]]></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Algorithm - Tag - Kata learns to code</title><link>/tags/algorithm/</link><description>Algorithm - Tag - Kata learns to code</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 29 Sep 2008 00:00:00 +0000</lastBuildDate><atom:link href="/tags/algorithm/" rel="self" type="application/rss+xml"/><item><title>Thứ tự từ điển</title><link>/posts/2008/09-29-thu-tu-tu-dien/</link><pubDate>Mon, 29 Sep 2008 00:00:00 +0000</pubDate><author>Nghia</author><guid>/posts/2008/09-29-thu-tu-tu-dien/</guid><description>&lt;p>Các bài toán về thứ tự từ điển thì có cách giải thông thường là: viết ra giấy vài trường hợp, để ý phân tích, mò ra quy luật, từ đó có phương án implement tốt nhất.&lt;/p></description></item></channel></rss>
