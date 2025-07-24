@@ -9,6 +9,8 @@ tags: [ IMO ]
 
 Một bài cực khó của kì thi Toán quốc tế (IMO) 2017 diễn ra tại Rio de Janeiro vào tháng 7 vừa qua. Theo quan sát của một thanh niên an nam thì chỉ có duy nhất một [thanh niên nga ngố](https://www.imo-official.org/team_r.aspx?code=RUS&year=2017) tên là Mikhail Ivanov giải trọn vẹn bài này trong phòng thi. Thanh niên an nam cũng cố giải, nhưng trong một phòng khác.
 
+<!--more-->
+
 ## Đề bài
 
 Một cô thợ săn và một con thỏ tàng hình chơi trò chơi sau trên mặt phẳng. Điểm xuất phát $A_0$ của con thỏ và điểm xuất phát $B_0$ của cô thợ săn trùng nhau. Sau $n-1$ lượt chơi, con thỏ ở điểm $A_{n-1}$ và cô thợ săn ở điểm $B_{n-1}$. Ở lượt chơi thứ $n$, có ba điều lần lượt xảy ra theo thứ tự dưới đây:
