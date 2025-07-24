@@ -7,6 +7,8 @@ tags: [ OOP, DesignPattern, FactoryPattern ]
 
 Every line of code that uses the `new` keyword may violate the [Dependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle) (DIP). Indeed, a class after `new` must be always concrete:
 
+<!--more-->
+
 ```java
 void test() {
     Shape obj = new Circle();
@@ -89,11 +91,3 @@ To conclude, I want to quote some thoughts from Uncle Bob:
 >A strict interpretation of DIP would insist on using factories for every volatile class in the system. What’s more, the power of the FACTORY pattern is seductive. These two factors can sometimes lure developers into using factories by default. This is an extreme that I don’t recommend.
 >
 >Factories are a complexity that can often be avoided, especially in the early phases of an evolving design. When they are used by default, factories dramatically increase the difficulty of extending the design. In order to create a new class, one may have to create as many as four new classes: the two interface classes that represent the new class and its factory and the two concrete classes that implement those interfaces.
-
-
-
-
-
-
-
-
