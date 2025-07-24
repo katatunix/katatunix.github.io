@@ -33,7 +33,7 @@ Bây giờ chúng ta sẽ xem xét từng phép biến đổi: translation, rota
 
 Rất khó hình dung translation trong mặt phẳng xạ ảnh nếu không có mặt phẳng nhúng $\Omega$ (xem [phần 2](../05-17-hinh-hoc-xa-anh-p2/)). Phép translation $(a, b)$ sẽ biến đổi một điểm $(x, y, w)$ như sau:
 
-$$(x, y, w) \mapsto (x/w, y/w, 1) \mapsto (x/w + a, y/w + b, 1) \mapsto (x + aw, y + bw, w)$$
+$(x, y, w) \mapsto (x/w, y/w, 1) \mapsto (x/w + a, y/w + b, 1) \mapsto (x + aw, y + bw, w)$
 
 Rút gọn là: $(x, y, w) \mapsto (x + aw, y + bw, w)$; công thức rút gọn này có thể áp dụng với $w = 0$; như vậy translation không làm thay đổi những điểm ở vô tận $(w = 0)$.
 
