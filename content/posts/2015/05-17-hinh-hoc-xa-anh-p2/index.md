@@ -80,4 +80,4 @@ Với cách chọn $\Omega$ này, ĐIỂM $(x, y, w)$ với $w = 0$ ngầm báo 
 
 Ở chiều ngược lại, tất cả những điểm $(x, y)$ thuộc mặt phẳng Euclide $\Omega$ muốn convert sang mặt phẳng xạ ảnh, thì chỉ cần thêm số $1$ vào cuối để có ĐIỂM $(x, y, 1)$.
 
-Như vậy là chúng ta đã áp đặt được một hệ tọa độ gọi là hệ tọa độ đồng nhất vào mặt phẳng xạ ảnh, và nhúng được một hệ tọa độ Euclide $\Omega$ vào trong nó. Trong phần tới chúng ra sẽ tìm hiểu về các phép biến hình (transformation) trong mặt phẳng xạ ảnh.
+Như vậy là chúng ta đã áp đặt được một hệ tọa độ gọi là hệ tọa độ đồng nhất vào mặt phẳng xạ ảnh, và nhúng được một hệ tọa độ Euclide $\Omega$ vào trong nó. Trong [phần tới](../05-19-hinh-hoc-xa-anh-p3/) chúng ra sẽ tìm hiểu về các phép biến hình (transformation) trong mặt phẳng xạ ảnh.

@@ -63,4 +63,4 @@ Duality sẽ làm ta thắc mắc: vậy rốt cục điểm là gì, đường 
 
 Thì hệ thống này cũng được gọi là projective geometry hỉ?
 
-Câu trả lời là... ở phần sau.
+Câu trả lời là... ở [phần sau](../05-17-hinh-hoc-xa-anh-p2/).
