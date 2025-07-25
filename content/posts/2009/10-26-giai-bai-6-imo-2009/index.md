@@ -17,7 +17,7 @@ Giả sử $a_1, a_2 ... a_n$ là các số nguyên dương khác nhau từng c�
 
 Với $n = 1, 2$: tầm thường.
 
-Giả sử bài toán đúng tới $n = k \space (k >= 3)$, ta sẽ chứng minh nó cũng đúng với $n = k + 1$.
+Giả sử bài toán đúng tới $n = k \space (k \ge 3)$, ta sẽ chứng minh nó cũng đúng với $n = k + 1$.
 
 Đặt dãy $P = \set{a_1, a_2 ... a_{k+1}}$ và $s = \sum{P}$.
 
