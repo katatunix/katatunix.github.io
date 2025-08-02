@@ -10,7 +10,7 @@ This post describe my favorites F# JSON options.
 
 <!--more-->
 
-## Install nuget packages
+## Install nuget package
 
 ```shell
 dotnet add package FSharp.SystemTextJson

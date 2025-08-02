@@ -16,7 +16,7 @@ This post describe an ASP.NET project template using F#, Falco, Falco.OpenApi, S
 dotnet new web -lang F# -o MyApp
 ```
 
-## Install nuget packages:
+## Install nuget packages
 
 ```shell
 cd MyApp
