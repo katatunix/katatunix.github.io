@@ -6,7 +6,7 @@ tags: [ FSharp, AspNet, Falco, OpenAPI, Scalar ]
 toc: true
 ---
 
-This post describe an ASP.NET project template using F#, Falco, Falco.OpenApi, Swashbuckle, and Scalar.
+This post describes an ASP.NET project template using F#, Falco, Falco.OpenApi, Swashbuckle, and Scalar.
 
 <!--more-->
 

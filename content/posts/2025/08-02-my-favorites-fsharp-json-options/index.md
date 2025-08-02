@@ -6,7 +6,7 @@ tags: [ FSharp, JSON ]
 toc: true
 ---
 
-This post describe my favorites F# JSON options.
+This post describes my favorites F# JSON options.
 
 <!--more-->
 
