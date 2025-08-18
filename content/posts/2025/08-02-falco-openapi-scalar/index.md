@@ -6,7 +6,7 @@ tags: [ FSharp, AspNet, Falco, OpenAPI, Scalar ]
 toc: true
 ---
 
-This post describes an ASP.NET project template using F#, Falco, Falco.OpenApi, Swashbuckle, and Scalar.
+This post describes an ASP.NET project template using F#, Falco, Falco.OpenApi, Microsoft.AspNetCore.OpenApi, and Scalar.
 
 <!--more-->
 
@@ -22,7 +22,7 @@ dotnet new web -lang F# -o MyApp
 cd MyApp
 dotnet add package Falco
 dotnet add package Falco.OpenApi
-dotnet add package Swashbuckle.AspNetCore.SwaggerGen
+dotnet add package Microsoft.AspNetCore.OpenApi
 dotnet add package Scalar.AspNetCore
 ```
 
@@ -44,17 +44,22 @@ let main args =
     let version = "v0.0.1"
 
     builder.Services
+        .AddOpenApi(version, fun o ->
+            o.AddDocumentTransformer(
+                Func<OpenApiDocument, _, _, System.Threading.Tasks.Task>(
+                    fun doc _ _ -> task {
+                        doc.Info <- OpenApiInfo(Title = title, Version = version, Description = description)
+                    }
+                )
+            )
+            |> ignore
+        )
         .AddFalcoOpenApi()
-        .AddSwaggerGen(_.SwaggerDoc(
-            version,
-            OpenApiInfo(Title = appName, Version = version, Description = "description")
-        ))
     |> ignore
 
     let app = builder.Build()
 
-    app.UseSwagger(fun o -> o.RouteTemplate <- "/openapi/{documentName}.json")
-    |> ignore
+    app.MapOpenApi() |> ignore
 
     app.MapScalarApiReference("/docs", fun o ->
         o.AddDocument(version).WithTitle(appName) |> ignore
