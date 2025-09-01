@@ -6,7 +6,7 @@ tags: [ FSharp, AspNet, Falco, OpenAPI, Scalar ]
 toc: true
 ---
 
-This post describes an ASP.NET project template using F#, Falco, Falco.OpenApi, Microsoft.AspNetCore.OpenApi, and Scalar.
+This post describes an ASP.NET 9.0 project template using F#, Falco, Falco.OpenApi, and Scalar.
 
 <!--more-->
 
@@ -22,7 +22,6 @@ dotnet new web -lang F# -o MyApp
 cd MyApp
 dotnet add package Falco
 dotnet add package Falco.OpenApi
-dotnet add package Microsoft.AspNetCore.OpenApi
 dotnet add package Scalar.AspNetCore
 ```
 
@@ -48,6 +47,7 @@ let main args =
             o.AddDocumentTransformer(
                 Func<OpenApiDocument, _, _, System.Threading.Tasks.Task>(
                     fun doc _ _ -> task {
+                        doc.Servers[0] <- OpenApiServer(Url = "/")
                         doc.Info <- OpenApiInfo(Title = title, Version = version, Description = description)
                     }
                 )
@@ -59,7 +59,7 @@ let main args =
 
     let app = builder.Build()
 
-    app.MapOpenApi() |> ignore
+    app.MapOpenApi().CacheOutput() |> ignore
 
     app.MapScalarApiReference("/docs", fun o ->
         o.AddDocument(version).WithTitle(appName) |> ignore
