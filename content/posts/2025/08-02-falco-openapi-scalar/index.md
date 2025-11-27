@@ -27,6 +27,8 @@ dotnet add package Scalar.AspNetCore
 
 ## Program.fs
 
+Replace the generated content with:
+
 ```fsharp
 open Microsoft.AspNetCore.Builder
 open Microsoft.Extensions.DependencyInjection
